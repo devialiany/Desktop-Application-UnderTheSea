@@ -1,0 +1,104 @@
+﻿<Window x:Class="UnderTheSea.View.AttractionDepartment"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:UnderTheSea.View"
+        mc:Ignorable="d"
+        Title="Under The Sea - Attraction Department" Height="500" Width="770" FontSize="14" Background="Orange" WindowStartupLocation="CenterScreen" ResizeMode="NoResize">
+    <StackPanel>
+        <Button Margin="0,10,10,0" Padding="5" Content="Sign Out" Name="btnSignOut" Click="btnSignOut_Click" HorizontalAlignment="Right" Width="127"/>
+        <Border Margin="10">
+            <TabControl Height="396">
+
+                <!--Record Ticket Transaction-->
+                <TabItem Header="Record Ticket Transaction" x:Name="FormTicket">
+                    <Canvas Margin="10,0,-10,0">
+                        <Label x:Name="label" Content="Recording Sales Ticket" Canvas.Left="10" Canvas.Top="10" FontWeight="Bold" FontSize="16"/>
+                        <Label Content="Quantity Ticket" Canvas.Left="10" Canvas.Top="77"/>
+                        <Button x:Name="btnPayment" Content="Payment" Click="btnPayment_Click"
+                                Canvas.Left="10" Canvas.Top="200" Width="116"/>
+                        <Label x:Name="label1" Content="Ticket Price" Canvas.Left="10" Canvas.Top="114"/>
+                        <Label x:Name="label2" Content="Qty" Canvas.Left="287" Canvas.Top="114"/>
+                        <Label x:Name="label3" Content="Total Payment" Canvas.Left="588" Canvas.Top="114"/>
+                        <Separator Height="23" Canvas.Left="10" Margin="0" Canvas.Top="139" Width="709"/>
+                        <Label x:Name="label4" Content="Rp. 70000" Canvas.Left="14" Canvas.Top="154"/>
+                        <Label x:Name="lbQuantity" Content="0" Canvas.Left="287" Canvas.Top="154" Width="48"/>
+                        <Label x:Name="lbTotalPrice" Content="Rp 0" Canvas.Left="588" Canvas.Top="154" Width="131"/>
+                        <Label x:Name="label7" Content=" " Canvas.Left="454" Canvas.Top="75" Foreground="Red"/>
+                        <Label x:Name="label8" Content="Paid" Canvas.Left="146" Canvas.Top="197"/>
+                        <TextBox x:Name="tbPaid" Height="23" Canvas.Left="207" TextWrapping="Wrap" Canvas.Top="200" Width="120" TextChanged="tbPaid_tbTextChange"/>
+                        <Label x:Name="label9" Content="Changes" Canvas.Left="363" Canvas.Top="197"/>
+                        <Button x:Name="btnOk" Content="OK" Click="btnOk_Click" Canvas.Left="10" Canvas.Top="240" Width="116"/>
+                        <Label x:Name="lbDate" Content="Date" Canvas.Left="588" Canvas.Top="12" Width="148"/>
+                        <TextBox x:Name="tbQuantity" Height="23" Canvas.Left="199" TextWrapping="Wrap" Canvas.Top="81" Width="120" TextChanged="showTotalPrice_tbTextChange"/>
+                        <Button x:Name="btnPrint" Content="Print Ticket" Click="btnPrint_Click"
+                            Canvas.Left="10" Canvas.Top="322" Width="116"/>
+                        <Button x:Name="btnUpdate" Content="Update" Click="btnUpdate_Click"
+                            Canvas.Left="344" Canvas.Top="81" Width="116"/>
+                        <Label x:Name="lbChanges" Content="Rp. 0" Canvas.Left="470" Canvas.Top="197"/>
+                        <Label Content="Transaction ID" Canvas.Left="10" Canvas.Top="40"/>
+                        <Label x:Name="lbTransactionId" Content="ID" Canvas.Left="199" Canvas.Top="40"/>
+                        <Button x:Name="btnCancel" Content="Cancel" Click="btnCancel_Click" Canvas.Left="11" Canvas.Top="282" Width="115"/>
+                    </Canvas>
+                </TabItem>
+                
+                <!--Data Record Ticket Transaction-->
+                <TabItem Header="Data Record Ticket Transaction" x:Name="DataTicketTransaction">
+                    <DataGrid x:Name="dataTicketTransactionView" Loaded="dataTicketTransactionView_Loaded"/>
+                </TabItem>
+
+                <!--Checking Ticket-->
+                <TabItem Header="Checking Ticket" x:Name="CheckTicket">
+                    <StackPanel Margin="30">
+                        <Label Content="Checking Validy Ticket" HorizontalAlignment="Center" FontWeight="Bold"/>
+                        <Grid Margin="0 5 0 0" Height="252">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="*"/>
+                                <ColumnDefinition Width="*"/>
+                            </Grid.ColumnDefinitions>
+                            <Button Grid.Column="0" Click="btnScan_Click" Margin="10,23,10,182" Name="btnScan" Content="Scan"/>
+                            <Image x:Name="imgQRCode" Grid.Column="1" HorizontalAlignment="Left" Height="232" Margin="68,10,0,0" VerticalAlignment="Top" Width="235"/>
+                            <TextBox x:Name="tbQrCode" HorizontalAlignment="Center" Height="35" Margin="30,91,27,126" TextWrapping="Wrap" VerticalAlignment="Center" Width="296" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" TextChanged="tbQrCode_TextChange"/>
+                            <Label x:Name="lbMessage" Content="Scan Ticket...." HorizontalAlignment="Left" Margin="10,141,0,0" VerticalAlignment="Top" Width="333" Height="103" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"/>
+                        </Grid>
+                    </StackPanel>
+                </TabItem>
+
+                <!--My Profile-->
+                <TabItem Header="My Profile" x:Name="MyProfile">
+                    <Grid Margin="10">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="168*"/>
+                            <ColumnDefinition Width="168*"/>
+                            <ColumnDefinition Width="381*"/>
+                        </Grid.ColumnDefinitions>
+                        <StackPanel Grid.Column="0">
+                            <Label Content="Employee ID                 : "/>
+                            <Label Content="Employee Name           : "/>
+                            <Label Content="Employee DOB             : "/>
+                            <Label Content="Employee Gender        : "/>
+                            <Label Content="Employee Role             : "/>
+                            <Label Content="Employee Department : "/>
+                            <Button Content="Request Leaving Permit" Margin="5,10,5,10" Click="rqPermit_Click"/>
+                            <Button Content="Request Resign" Margin="5,10,5,10" Click="rqResign_Click"/>
+                        </StackPanel>
+                        <StackPanel Grid.Column="1">
+                            <Label x:Name="lbeid"/>
+                            <Label x:Name="lbeName"/>
+                            <Label x:Name="lbeDob"/>
+                            <Label x:Name="lbeGender"/>
+                            <Label x:Name="lbeRole"/>
+                            <Label x:Name="lbeDepartment"/>
+                            <Button Content="History Request Permit" Margin="5,10,5,10" Click="historyPermit_Click"/>
+                            <Button Content="History Request Resign" Margin="5,10,5,10" Click="historyResign_Click"/>
+                        </StackPanel>
+                        <Frame Grid.Column="2" x:Name="Main" NavigationUIVisibility="Hidden">
+                        </Frame>
+                    </Grid>
+                </TabItem>
+
+            </TabControl>
+        </Border>
+    </StackPanel>
+</Window>

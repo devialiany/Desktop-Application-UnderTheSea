@@ -1,0 +1,508 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="UnderTheSeaDBsModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="UnderTheSeaDBsEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Advertisement" EntityType="UnderTheSeaDBsModel.Advertisement" />
+    <EntitySet Name="Attraction" EntityType="UnderTheSeaDBsModel.Attraction" />
+    <EntitySet Name="Construction" EntityType="UnderTheSeaDBsModel.Construction" />
+    <EntitySet Name="Employee" EntityType="UnderTheSeaDBsModel.Employee" />
+    <EntitySet Name="EmployeeDepartment" EntityType="UnderTheSeaDBsModel.EmployeeDepartment" />
+    <EntitySet Name="HotelTransaction" EntityType="UnderTheSeaDBsModel.HotelTransaction" />
+    <EntitySet Name="MaintenanceSchedule" EntityType="UnderTheSeaDBsModel.MaintenanceSchedule" />
+    <EntitySet Name="Menu" EntityType="UnderTheSeaDBsModel.Menu" />
+    <EntitySet Name="NumberTable" EntityType="UnderTheSeaDBsModel.NumberTable" />
+    <EntitySet Name="PurchaseOrder" EntityType="UnderTheSeaDBsModel.PurchaseOrder" />
+    <EntitySet Name="RequestAttraction" EntityType="UnderTheSeaDBsModel.RequestAttraction" />
+    <EntitySet Name="RequestFund" EntityType="UnderTheSeaDBsModel.RequestFund" />
+    <EntitySet Name="RequestPermit" EntityType="UnderTheSeaDBsModel.RequestPermit" />
+    <EntitySet Name="RequestPurchase" EntityType="UnderTheSeaDBsModel.RequestPurchase" />
+    <EntitySet Name="RequestResign" EntityType="UnderTheSeaDBsModel.RequestResign" />
+    <EntitySet Name="RequestRide" EntityType="UnderTheSeaDBsModel.RequestRide" />
+    <EntitySet Name="RestaurantTransaction" EntityType="UnderTheSeaDBsModel.RestaurantTransaction" />
+    <EntitySet Name="Ride" EntityType="UnderTheSeaDBsModel.Ride" />
+    <EntitySet Name="RoomHotel" EntityType="UnderTheSeaDBsModel.RoomHotel" />
+    <EntitySet Name="Ticket" EntityType="UnderTheSeaDBsModel.Ticket" />
+    <EntitySet Name="TicketTransaction" EntityType="UnderTheSeaDBsModel.TicketTransaction" />
+    <AssociationSet Name="FK__Advertise__Emplo__625A9A57" Association="UnderTheSeaDBsModel.FK__Advertise__Emplo__625A9A57">
+      <End Role="Employee" EntitySet="Employee" />
+      <End Role="Advertisement" EntitySet="Advertisement" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Maintenan__Attra__2A164134" Association="UnderTheSeaDBsModel.FK__Maintenan__Attra__2A164134">
+      <End Role="Attraction" EntitySet="Attraction" />
+      <End Role="MaintenanceSchedule" EntitySet="MaintenanceSchedule" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Construct__RideI__2FCF1A8A" Association="UnderTheSeaDBsModel.FK__Construct__RideI__2FCF1A8A">
+      <End Role="Ride" EntitySet="Ride" />
+      <End Role="Construction" EntitySet="Construction" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Employee__Employ__403A8C7D" Association="UnderTheSeaDBsModel.FK__Employee__Employ__403A8C7D">
+      <End Role="EmployeeDepartment" EntitySet="EmployeeDepartment" />
+      <End Role="Employee" EntitySet="Employee" />
+    </AssociationSet>
+    <AssociationSet Name="FK__RequestAt__Emplo__07C12930" Association="UnderTheSeaDBsModel.FK__RequestAt__Emplo__07C12930">
+      <End Role="Employee" EntitySet="Employee" />
+      <End Role="RequestAttraction" EntitySet="RequestAttraction" />
+    </AssociationSet>
+    <AssociationSet Name="FK__RequestFu__Emplo__55009F39" Association="UnderTheSeaDBsModel.FK__RequestFu__Emplo__55009F39">
+      <End Role="Employee" EntitySet="Employee" />
+      <End Role="RequestFund" EntitySet="RequestFund" />
+    </AssociationSet>
+    <AssociationSet Name="FK__RequestPe__Emplo__5FB337D6" Association="UnderTheSeaDBsModel.FK__RequestPe__Emplo__5FB337D6">
+      <End Role="Employee" EntitySet="Employee" />
+      <End Role="RequestPermit" EntitySet="RequestPermit" />
+    </AssociationSet>
+    <AssociationSet Name="FK__RequestPu__Emplo__5224328E" Association="UnderTheSeaDBsModel.FK__RequestPu__Emplo__5224328E">
+      <End Role="Employee" EntitySet="Employee" />
+      <End Role="RequestPurchase" EntitySet="RequestPurchase" />
+    </AssociationSet>
+    <AssociationSet Name="FK__RequestRe__Emplo__628FA481" Association="UnderTheSeaDBsModel.FK__RequestRe__Emplo__628FA481">
+      <End Role="Employee" EntitySet="Employee" />
+      <End Role="RequestResign" EntitySet="RequestResign" />
+    </AssociationSet>
+    <AssociationSet Name="FK__RequestRi__Emplo__02FC7413" Association="UnderTheSeaDBsModel.FK__RequestRi__Emplo__02FC7413">
+      <End Role="Employee" EntitySet="Employee" />
+      <End Role="RequestRide" EntitySet="RequestRide" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Restauran__Emplo__160F4887" Association="UnderTheSeaDBsModel.FK__Restauran__Emplo__160F4887">
+      <End Role="Employee" EntitySet="Employee" />
+      <End Role="RestaurantTransaction" EntitySet="RestaurantTransaction" />
+    </AssociationSet>
+    <AssociationSet Name="FK__TicketTra__Emplo__3F466844" Association="UnderTheSeaDBsModel.FK__TicketTra__Emplo__3F466844">
+      <End Role="Employee" EntitySet="Employee" />
+      <End Role="TicketTransaction" EntitySet="TicketTransaction" />
+    </AssociationSet>
+    <AssociationSet Name="FK__HotelTran__RoomI__690797E6" Association="UnderTheSeaDBsModel.FK__HotelTran__RoomI__690797E6">
+      <End Role="RoomHotel" EntitySet="RoomHotel" />
+      <End Role="HotelTransaction" EntitySet="HotelTransaction" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Maintenan__RideI__29221CFB" Association="UnderTheSeaDBsModel.FK__Maintenan__RideI__29221CFB">
+      <End Role="Ride" EntitySet="Ride" />
+      <End Role="MaintenanceSchedule" EntitySet="MaintenanceSchedule" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="Advertisement">
+    <Key>
+      <PropertyRef Name="AdvertisementId" />
+    </Key>
+    <Property Name="AdvertisementId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="EmployeeId" Type="Int32" Nullable="false" />
+    <Property Name="AdvertisementName" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="AdvertisementDetail" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="AdvertisementStatus" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Employee" Relationship="UnderTheSeaDBsModel.FK__Advertise__Emplo__625A9A57" FromRole="Advertisement" ToRole="Employee" />
+  </EntityType>
+  <EntityType Name="Attraction">
+    <Key>
+      <PropertyRef Name="AttractionId" />
+    </Key>
+    <Property Name="AttractionId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="AttractionName" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="AttractionDescription" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="AttractionHowToWork" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="AttractionWhoParticipant" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="AttractionStartDateLaunch" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="AttractionStatus" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="MaintenanceSchedule" Relationship="UnderTheSeaDBsModel.FK__Maintenan__Attra__2A164134" FromRole="Attraction" ToRole="MaintenanceSchedule" />
+  </EntityType>
+  <EntityType Name="Construction">
+    <Key>
+      <PropertyRef Name="ConstructionId" />
+    </Key>
+    <Property Name="ConstructionId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="RideId" Type="Int32" Nullable="false" />
+    <Property Name="ConstructionStatus" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Ride" Relationship="UnderTheSeaDBsModel.FK__Construct__RideI__2FCF1A8A" FromRole="Construction" ToRole="Ride" />
+  </EntityType>
+  <EntityType Name="Employee">
+    <Key>
+      <PropertyRef Name="EmployeeId" />
+    </Key>
+    <Property Name="EmployeeId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="EmployeeName" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="EmployeeDOB" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="EmployeeGender" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="EmployeeSalary" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="EmployeePerformance" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="EmployeeUsername" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="EmployeePassword" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="EmployeeRole" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="EmployeeDepartmentId" Type="Int32" Nullable="false" />
+    <Property Name="EnployeeStatus" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Advertisement" Relationship="UnderTheSeaDBsModel.FK__Advertise__Emplo__625A9A57" FromRole="Employee" ToRole="Advertisement" />
+    <NavigationProperty Name="EmployeeDepartment" Relationship="UnderTheSeaDBsModel.FK__Employee__Employ__403A8C7D" FromRole="Employee" ToRole="EmployeeDepartment" />
+    <NavigationProperty Name="RequestAttraction" Relationship="UnderTheSeaDBsModel.FK__RequestAt__Emplo__07C12930" FromRole="Employee" ToRole="RequestAttraction" />
+    <NavigationProperty Name="RequestFund" Relationship="UnderTheSeaDBsModel.FK__RequestFu__Emplo__55009F39" FromRole="Employee" ToRole="RequestFund" />
+    <NavigationProperty Name="RequestPermit" Relationship="UnderTheSeaDBsModel.FK__RequestPe__Emplo__5FB337D6" FromRole="Employee" ToRole="RequestPermit" />
+    <NavigationProperty Name="RequestPurchase" Relationship="UnderTheSeaDBsModel.FK__RequestPu__Emplo__5224328E" FromRole="Employee" ToRole="RequestPurchase" />
+    <NavigationProperty Name="RequestResign" Relationship="UnderTheSeaDBsModel.FK__RequestRe__Emplo__628FA481" FromRole="Employee" ToRole="RequestResign" />
+    <NavigationProperty Name="RequestRide" Relationship="UnderTheSeaDBsModel.FK__RequestRi__Emplo__02FC7413" FromRole="Employee" ToRole="RequestRide" />
+    <NavigationProperty Name="RestaurantTransaction" Relationship="UnderTheSeaDBsModel.FK__Restauran__Emplo__160F4887" FromRole="Employee" ToRole="RestaurantTransaction" />
+    <NavigationProperty Name="TicketTransaction" Relationship="UnderTheSeaDBsModel.FK__TicketTra__Emplo__3F466844" FromRole="Employee" ToRole="TicketTransaction" />
+  </EntityType>
+  <EntityType Name="EmployeeDepartment">
+    <Key>
+      <PropertyRef Name="EmployeeDepartmentId" />
+    </Key>
+    <Property Name="EmployeeDepartmentId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="EmployeeDepartmentName" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Employee" Relationship="UnderTheSeaDBsModel.FK__Employee__Employ__403A8C7D" FromRole="EmployeeDepartment" ToRole="Employee" />
+  </EntityType>
+  <EntityType Name="HotelTransaction">
+    <Key>
+      <PropertyRef Name="HotelTransactionId" />
+    </Key>
+    <Property Name="HotelTransactionId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="EmployeeId" Type="Int32" Nullable="false" />
+    <Property Name="HotelTransactionDate" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="FromDate" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="EndDate" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="RoomId" Type="Int32" Nullable="false" />
+    <Property Name="VisitorId" Type="Int32" Nullable="false" />
+    <Property Name="Payment" Type="Int32" />
+    <NavigationProperty Name="RoomHotel" Relationship="UnderTheSeaDBsModel.FK__HotelTran__RoomI__690797E6" FromRole="HotelTransaction" ToRole="RoomHotel" />
+  </EntityType>
+  <EntityType Name="MaintenanceSchedule">
+    <Key>
+      <PropertyRef Name="MaintenanceScheduleId" />
+    </Key>
+    <Property Name="MaintenanceScheduleId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="RideId" Type="Int32" />
+    <Property Name="AttractionId" Type="Int32" />
+    <Property Name="RideName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="AttractionName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="MaintenanceNote" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="MaintenanceDate" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="MaintenaceStartTime" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="MaintenanceEndTime" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Attraction" Relationship="UnderTheSeaDBsModel.FK__Maintenan__Attra__2A164134" FromRole="MaintenanceSchedule" ToRole="Attraction" />
+    <NavigationProperty Name="Ride" Relationship="UnderTheSeaDBsModel.FK__Maintenan__RideI__29221CFB" FromRole="MaintenanceSchedule" ToRole="Ride" />
+  </EntityType>
+  <EntityType Name="Menu">
+    <Key>
+      <PropertyRef Name="MenuId" />
+    </Key>
+    <Property Name="MenuId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="MenuName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="MenuPrice" Type="Int32" />
+    <Property Name="MenuStatus" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="NumberTable">
+    <Key>
+      <PropertyRef Name="NumberTableId" />
+    </Key>
+    <Property Name="NumberTableId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="StatusTable" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="PurchaseOrder">
+    <Key>
+      <PropertyRef Name="PurchaseOrderId" />
+    </Key>
+    <Property Name="PurchaseOrderId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="WhoBuy" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="PurchaseOrderDate" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="AmountPurchase" Type="Int32" Nullable="false" />
+    <Property Name="PurchaseOrderStatus" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="RequestAttraction">
+    <Key>
+      <PropertyRef Name="ReqAttId" />
+    </Key>
+    <Property Name="ReqAttId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ReqAttName" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="ReqAttDescription" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="ReqAttHowToWork" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="ReqAttWhoParticipant" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="ReqAttStartDateLaunch" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="ReqAttStatus" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="EmployeeId" Type="Int32" Nullable="false" />
+    <Property Name="AttractionId" Type="Int32" />
+    <NavigationProperty Name="Employee" Relationship="UnderTheSeaDBsModel.FK__RequestAt__Emplo__07C12930" FromRole="RequestAttraction" ToRole="Employee" />
+  </EntityType>
+  <EntityType Name="RequestFund">
+    <Key>
+      <PropertyRef Name="RequestFundId" />
+    </Key>
+    <Property Name="RequestFundId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="EmployeeId" Type="Int32" Nullable="false" />
+    <Property Name="RequestFundDetail" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="RequestFundStatus" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="PredictedAmount" Type="Int32" Nullable="false" />
+    <Property Name="RequestFundDate" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="RequestReason" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Employee" Relationship="UnderTheSeaDBsModel.FK__RequestFu__Emplo__55009F39" FromRole="RequestFund" ToRole="Employee" />
+  </EntityType>
+  <EntityType Name="RequestPermit">
+    <Key>
+      <PropertyRef Name="RequestPermitId" />
+    </Key>
+    <Property Name="RequestPermitId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="EmployeeId" Type="Int32" Nullable="false" />
+    <Property Name="FromDate" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="ToDate" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="Category" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="ReasonPermit" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="PermitStatus" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Employee" Relationship="UnderTheSeaDBsModel.FK__RequestPe__Emplo__5FB337D6" FromRole="RequestPermit" ToRole="Employee" />
+  </EntityType>
+  <EntityType Name="RequestPurchase">
+    <Key>
+      <PropertyRef Name="RequestPurchaseId" />
+    </Key>
+    <Property Name="RequestPurchaseId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="EmployeeId" Type="Int32" Nullable="false" />
+    <Property Name="RequestPurchaseDetail" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="RequestPurchaseStatus" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="RequestDateNeed" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="RequestPurchaseDate" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="PurchaseTimeNeed" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Employee" Relationship="UnderTheSeaDBsModel.FK__RequestPu__Emplo__5224328E" FromRole="RequestPurchase" ToRole="Employee" />
+  </EntityType>
+  <EntityType Name="RequestResign">
+    <Key>
+      <PropertyRef Name="RequestResignId" />
+    </Key>
+    <Property Name="RequestResignId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="EmployeeId" Type="Int32" Nullable="false" />
+    <Property Name="AssignDate" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="ResignReason" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="ResignStatus" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="ReasonManager" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Employee" Relationship="UnderTheSeaDBsModel.FK__RequestRe__Emplo__628FA481" FromRole="RequestResign" ToRole="Employee" />
+  </EntityType>
+  <EntityType Name="RequestRide">
+    <Key>
+      <PropertyRef Name="ReqRideId" />
+    </Key>
+    <Property Name="ReqRideId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ReqRideName" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="ReqRideDescription" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="ReqRideHowToWork" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="ReqRideKind" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="ReqRideSafetyInformation" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="ReqRideStatus" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="EmployeeId" Type="Int32" Nullable="false" />
+    <Property Name="RideId" Type="Int32" />
+    <NavigationProperty Name="Employee" Relationship="UnderTheSeaDBsModel.FK__RequestRi__Emplo__02FC7413" FromRole="RequestRide" ToRole="Employee" />
+  </EntityType>
+  <EntityType Name="RestaurantTransaction">
+    <Key>
+      <PropertyRef Name="ResturantTransaction" />
+    </Key>
+    <Property Name="ResturantTransaction" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="EmployeeId" Type="Int32" Nullable="false" />
+    <Property Name="TransactionDate" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="OrderMethod" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="NumberTable" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="NameVisitor" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="RestaurantTransactionStatus" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Payment" Type="Int32" />
+    <NavigationProperty Name="Employee" Relationship="UnderTheSeaDBsModel.FK__Restauran__Emplo__160F4887" FromRole="RestaurantTransaction" ToRole="Employee" />
+  </EntityType>
+  <EntityType Name="Ride">
+    <Key>
+      <PropertyRef Name="RideId" />
+    </Key>
+    <Property Name="RideId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="RideName" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="RideDescription" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="RideHowToWork" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="RideKind" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="RideSafetyInformation" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="RideStatus" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Construction" Relationship="UnderTheSeaDBsModel.FK__Construct__RideI__2FCF1A8A" FromRole="Ride" ToRole="Construction" />
+    <NavigationProperty Name="MaintenanceSchedule" Relationship="UnderTheSeaDBsModel.FK__Maintenan__RideI__29221CFB" FromRole="Ride" ToRole="MaintenanceSchedule" />
+  </EntityType>
+  <EntityType Name="RoomHotel">
+    <Key>
+      <PropertyRef Name="RoomId" />
+    </Key>
+    <Property Name="RoomId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="RoomType" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="RoomStatus" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="HotelTransaction" Relationship="UnderTheSeaDBsModel.FK__HotelTran__RoomI__690797E6" FromRole="RoomHotel" ToRole="HotelTransaction" />
+  </EntityType>
+  <EntityType Name="Ticket">
+    <Key>
+      <PropertyRef Name="TicketId" />
+    </Key>
+    <Property Name="TicketId" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="TicketTransaction">
+    <Key>
+      <PropertyRef Name="TicketTransactionId" />
+    </Key>
+    <Property Name="TicketTransactionId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="EmployeeId" Type="Int32" Nullable="false" />
+    <Property Name="TicketTransactionDate" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="TicketQuantity" Type="Int32" Nullable="false" />
+    <Property Name="TicketTransactionStatus" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Employee" Relationship="UnderTheSeaDBsModel.FK__TicketTra__Emplo__3F466844" FromRole="TicketTransaction" ToRole="Employee" />
+  </EntityType>
+  <Association Name="FK__Advertise__Emplo__625A9A57">
+    <End Type="UnderTheSeaDBsModel.Employee" Role="Employee" Multiplicity="1" />
+    <End Type="UnderTheSeaDBsModel.Advertisement" Role="Advertisement" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Employee">
+        <PropertyRef Name="EmployeeId" />
+      </Principal>
+      <Dependent Role="Advertisement">
+        <PropertyRef Name="EmployeeId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Maintenan__Attra__2A164134">
+    <End Type="UnderTheSeaDBsModel.Attraction" Role="Attraction" Multiplicity="0..1" />
+    <End Type="UnderTheSeaDBsModel.MaintenanceSchedule" Role="MaintenanceSchedule" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Attraction">
+        <PropertyRef Name="AttractionId" />
+      </Principal>
+      <Dependent Role="MaintenanceSchedule">
+        <PropertyRef Name="AttractionId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Construct__RideI__2FCF1A8A">
+    <End Type="UnderTheSeaDBsModel.Ride" Role="Ride" Multiplicity="1" />
+    <End Type="UnderTheSeaDBsModel.Construction" Role="Construction" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Ride">
+        <PropertyRef Name="RideId" />
+      </Principal>
+      <Dependent Role="Construction">
+        <PropertyRef Name="RideId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Employee__Employ__403A8C7D">
+    <End Type="UnderTheSeaDBsModel.EmployeeDepartment" Role="EmployeeDepartment" Multiplicity="1" />
+    <End Type="UnderTheSeaDBsModel.Employee" Role="Employee" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="EmployeeDepartment">
+        <PropertyRef Name="EmployeeDepartmentId" />
+      </Principal>
+      <Dependent Role="Employee">
+        <PropertyRef Name="EmployeeDepartmentId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__RequestAt__Emplo__07C12930">
+    <End Type="UnderTheSeaDBsModel.Employee" Role="Employee" Multiplicity="1" />
+    <End Type="UnderTheSeaDBsModel.RequestAttraction" Role="RequestAttraction" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Employee">
+        <PropertyRef Name="EmployeeId" />
+      </Principal>
+      <Dependent Role="RequestAttraction">
+        <PropertyRef Name="EmployeeId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__RequestFu__Emplo__55009F39">
+    <End Type="UnderTheSeaDBsModel.Employee" Role="Employee" Multiplicity="1" />
+    <End Type="UnderTheSeaDBsModel.RequestFund" Role="RequestFund" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Employee">
+        <PropertyRef Name="EmployeeId" />
+      </Principal>
+      <Dependent Role="RequestFund">
+        <PropertyRef Name="EmployeeId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__RequestPe__Emplo__5FB337D6">
+    <End Type="UnderTheSeaDBsModel.Employee" Role="Employee" Multiplicity="1" />
+    <End Type="UnderTheSeaDBsModel.RequestPermit" Role="RequestPermit" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Employee">
+        <PropertyRef Name="EmployeeId" />
+      </Principal>
+      <Dependent Role="RequestPermit">
+        <PropertyRef Name="EmployeeId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__RequestPu__Emplo__5224328E">
+    <End Type="UnderTheSeaDBsModel.Employee" Role="Employee" Multiplicity="1" />
+    <End Type="UnderTheSeaDBsModel.RequestPurchase" Role="RequestPurchase" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Employee">
+        <PropertyRef Name="EmployeeId" />
+      </Principal>
+      <Dependent Role="RequestPurchase">
+        <PropertyRef Name="EmployeeId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__RequestRe__Emplo__628FA481">
+    <End Type="UnderTheSeaDBsModel.Employee" Role="Employee" Multiplicity="1" />
+    <End Type="UnderTheSeaDBsModel.RequestResign" Role="RequestResign" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Employee">
+        <PropertyRef Name="EmployeeId" />
+      </Principal>
+      <Dependent Role="RequestResign">
+        <PropertyRef Name="EmployeeId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__RequestRi__Emplo__02FC7413">
+    <End Type="UnderTheSeaDBsModel.Employee" Role="Employee" Multiplicity="1" />
+    <End Type="UnderTheSeaDBsModel.RequestRide" Role="RequestRide" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Employee">
+        <PropertyRef Name="EmployeeId" />
+      </Principal>
+      <Dependent Role="RequestRide">
+        <PropertyRef Name="EmployeeId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Restauran__Emplo__160F4887">
+    <End Type="UnderTheSeaDBsModel.Employee" Role="Employee" Multiplicity="1" />
+    <End Type="UnderTheSeaDBsModel.RestaurantTransaction" Role="RestaurantTransaction" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Employee">
+        <PropertyRef Name="EmployeeId" />
+      </Principal>
+      <Dependent Role="RestaurantTransaction">
+        <PropertyRef Name="EmployeeId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__TicketTra__Emplo__3F466844">
+    <End Type="UnderTheSeaDBsModel.Employee" Role="Employee" Multiplicity="1" />
+    <End Type="UnderTheSeaDBsModel.TicketTransaction" Role="TicketTransaction" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Employee">
+        <PropertyRef Name="EmployeeId" />
+      </Principal>
+      <Dependent Role="TicketTransaction">
+        <PropertyRef Name="EmployeeId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__HotelTran__RoomI__690797E6">
+    <End Type="UnderTheSeaDBsModel.RoomHotel" Role="RoomHotel" Multiplicity="1" />
+    <End Type="UnderTheSeaDBsModel.HotelTransaction" Role="HotelTransaction" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="RoomHotel">
+        <PropertyRef Name="RoomId" />
+      </Principal>
+      <Dependent Role="HotelTransaction">
+        <PropertyRef Name="RoomId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Maintenan__RideI__29221CFB">
+    <End Type="UnderTheSeaDBsModel.Ride" Role="Ride" Multiplicity="0..1" />
+    <End Type="UnderTheSeaDBsModel.MaintenanceSchedule" Role="MaintenanceSchedule" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Ride">
+        <PropertyRef Name="RideId" />
+      </Principal>
+      <Dependent Role="MaintenanceSchedule">
+        <PropertyRef Name="RideId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

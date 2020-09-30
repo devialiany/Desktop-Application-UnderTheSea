@@ -1,0 +1,98 @@
+﻿<Window x:Class="UnderTheSea.View.SalesAndMarketingDepartment"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:UnderTheSea.View"
+        mc:Ignorable="d"
+        Title="Sales And Marketing Department - Under The Sea" Height="700" Width="1200" FontSize="15" Background="Lavender" WindowStartupLocation="CenterScreen" ResizeMode="NoResize">
+    <StackPanel>
+        <Button Margin="0,10,10,0" Padding="5" Content="Sign Out" x:Name="btnSignOut" Click="btnSignOut_Click" HorizontalAlignment="Right" Width="127"/>
+        <Border Margin="10">
+            <TabControl Height="595">
+                <TabItem Header="Manage Advertisement" x:Name="ManageAdvertisement">
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+                        <StackPanel Grid.Column="0" Margin="10">
+                            <Label Content="List Advertisement Under The Sea" FontWeight="Bold"/>
+                            <DataGrid x:Name="dataAdvertisement" Height="500" Loaded="dataAdvertisement_Loaded"/>
+                        </StackPanel>
+                        <StackPanel Grid.Column="1" Margin="10">
+                            <Label Content="Advertisement ID"/>
+                            <StackPanel Orientation="Horizontal">
+                                <TextBox x:Name="tbAdsId" Width="70"/>
+                                <Button x:Name="btnSearchAAds" Content="Search" Click="btnSearchAAds_Click" Margin="50,0,0,0" Padding="10,0,10,0"/>
+                            </StackPanel>
+                            <Label Content="Advertisement Name"/>
+                            <TextBox x:Name="tbNameAds" Width="70"/>
+                            <Label Content="Advertisement Detail"/>
+                            <TextBox x:Name="tbDetailAds" TextWrapping="Wrap" VerticalScrollBarVisibility="Visible" Height="60"/>
+                            <Button x:Name="btnAddAds" Content="Add Advertisement" Click="btnAddAds_Click" Margin="5"/>
+                            <Button x:Name="btnUpdAds" Content="Update Advertisment" Click="btnUpdAds_Click" Margin="5"/>
+                            <Button x:Name="btnDelAds" Content="Delete Advertisement" Click="btnDelAds_Click" Margin="5"/>
+                        </StackPanel>
+                    </Grid>
+                </TabItem>
+                
+                <!--Purchase-->
+                <TabItem Header="Request Purchase" x:Name="requestPurchase">
+                    <Grid Margin="10">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+                        <StackPanel Grid.Column="0" Margin="10">
+                            <Label Content="List Request Purchase Under The Sea" FontWeight="Bold"/>
+                            <DataGrid x:Name="dataRequestPurchase" Height="315" Loaded="dataRequestPurchase_Loaded"/>
+                        </StackPanel>
+                        <StackPanel Grid.Column="1" Margin="10">
+                            <Label Content="Request Purchase ID"/>
+                            <StackPanel Orientation="Horizontal" Margin="10">
+                                <TextBox x:Name="tbPurId" Width="70"/>
+                                <Button x:Name="btnPurId" Content="Search" Click="btnPurId_Click" Margin="50,0,0,0" Padding="10,0,10,0"/>
+                            </StackPanel>
+                            <Label Content="Request Detail"/>
+                            <TextBox x:Name="tbReqDet" TextWrapping="Wrap" VerticalScrollBarVisibility="Visible" Height="78"/>
+                            <Label Content="Date to Need"/>
+                            <DatePicker x:Name="dpNeed"/>
+                            <Label Content="Time to Need"/>
+                            <TextBox x:Name="tbTimeNeed"/>
+                            <Button x:Name="btnRequestPurchase" Content="Request Purchase" Margin="70,10,70,10" Click="btnRequestPurchase_Click"/>
+                        </StackPanel>
+                    </Grid>
+                </TabItem>
+
+                <!--tab request fund-->
+                <TabItem Header="Request Fund" x:Name="requestFund">
+                    <Grid Margin="10">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+                        <StackPanel Grid.Column="0" Margin="10">
+                            <Label Content="List Request Purchase Under The Sea" FontWeight="Bold"/>
+                            <DataGrid x:Name="dataRequestFund" Height="315" Loaded="dataRequestFund_Loaded"/>
+                        </StackPanel>
+                        <StackPanel Grid.Column="1" Margin="10">
+                            <Label Content="Request Purchase ID"/>
+                            <StackPanel Orientation="Horizontal" Margin="10">
+                                <TextBox x:Name="tbFundId" Width="70"/>
+                                <Button x:Name="btnSearchFundId" Content="Search" Click="btnSearchFundId_Click" Margin="50,0,0,0" Padding="10,0,10,0"/>
+                            </StackPanel>
+                            <Label Content="Request Detail"/>
+                            <TextBox x:Name="tbFundDet" TextWrapping="Wrap" VerticalScrollBarVisibility="Visible" Height="45"/>
+                            <Label Content="Amount of Price"/>
+                            <TextBox x:Name="tbFundAmount" Height="30"/>
+                            <Button x:Name="RequestFund" Content="Request Fund" Margin="70,10,70,10" Click="RequestFund_Click"/>
+                            <Label Content="Reason"/>
+                            <TextBox x:Name="tbReasonNoAcc" TextWrapping="Wrap" VerticalScrollBarVisibility="Visible" Height="84"/>
+                        </StackPanel>
+                    </Grid>
+                </TabItem>
+            </TabControl>
+        </Border>
+    </StackPanel>
+</Window>

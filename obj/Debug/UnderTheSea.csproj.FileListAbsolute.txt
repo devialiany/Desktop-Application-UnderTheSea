@@ -1,0 +1,227 @@
+D:\UnderTheSea\UnderTheSea\bin\Debug\UnderTheSea.exe.config
+D:\UnderTheSea\UnderTheSea\bin\Debug\UnderTheSea.exe
+D:\UnderTheSea\UnderTheSea\bin\Debug\UnderTheSea.pdb
+D:\UnderTheSea\UnderTheSea\obj\Debug\App.g.cs
+D:\UnderTheSea\UnderTheSea\obj\Debug\UnderTheSea_MarkupCompile.cache
+D:\UnderTheSea\UnderTheSea\obj\Debug\UnderTheSea_MarkupCompile.lref
+D:\UnderTheSea\UnderTheSea\obj\Debug\UnderTheSea.g.resources
+D:\UnderTheSea\UnderTheSea\obj\Debug\UnderTheSea.Properties.Resources.resources
+D:\UnderTheSea\UnderTheSea\obj\Debug\UnderTheSea.csproj.GenerateResource.Cache
+D:\UnderTheSea\UnderTheSea\obj\Debug\UnderTheSea.exe
+D:\UnderTheSea\UnderTheSea\obj\Debug\UnderTheSea.pdb
+D:\UnderTheSea\UnderTheSea\obj\Debug\View\Login.g.cs
+D:\UnderTheSea\UnderTheSea\obj\Debug\View\Login.baml
+D:\UnderTheSea\UnderTheSea\obj\Debug\View\AttractionDepartment.g.cs
+D:\UnderTheSea\UnderTheSea\obj\Debug\View\AttractionDepartment.baml
+D:\UnderTheSea\UnderTheSea\bin\Debug\MessagingToolkit.QRCode.dll
+D:\UnderTheSea\UnderTheSea\obj\Debug\UnderTheSea_Content.g.cs
+D:\UnderTheSea\UnderTheSea\bin\Debug\EntityFramework.dll
+D:\UnderTheSea\UnderTheSea\bin\Debug\EntityFramework.SqlServer.dll
+D:\UnderTheSea\UnderTheSea\bin\Debug\EntityFramework.xml
+D:\UnderTheSea\UnderTheSea\bin\Debug\EntityFramework.SqlServer.xml
+D:\UnderTheSea\UnderTheSea\obj\Debug\View\ManagementDepartment.g.cs
+D:\UnderTheSea\UnderTheSea\obj\Debug\View\ManagementDepartment.baml
+D:\UnderTheSea\UnderTheSea\bin\Debug\DotNetProjects.DataVisualization.Toolkit.dll
+D:\UnderTheSea\UnderTheSea\obj\Debug\View\ConstructionDepartment.g.cs
+D:\UnderTheSea\UnderTheSea\obj\Debug\View\MaintenanceDepartment.g.cs
+D:\UnderTheSea\UnderTheSea\obj\Debug\View\RideandAttractionCreativeDepartment.g.cs
+D:\UnderTheSea\UnderTheSea\obj\Debug\View\ConstructionDepartment.baml
+D:\UnderTheSea\UnderTheSea\obj\Debug\View\MaintenanceDepartment.baml
+D:\UnderTheSea\UnderTheSea\obj\Debug\View\RideandAttractionCreativeDepartment.baml
+D:\UnderTheSea\UnderTheSea\obj\Debug\View\RequestPermit.g.cs
+D:\UnderTheSea\UnderTheSea\obj\Debug\View\RequestPermit.baml
+D:\UnderTheSea\UnderTheSea\obj\Debug\View\RequestResign.g.cs
+D:\UnderTheSea\UnderTheSea\obj\Debug\View\RequestResign.baml
+D:\UnderTheSea\UnderTheSea\obj\Debug\View\HistoryPermit.g.cs
+D:\UnderTheSea\UnderTheSea\obj\Debug\View\HistoryPermit.baml
+D:\UnderTheSea\UnderTheSea\obj\Debug\View\HistoryResign.g.cs
+D:\UnderTheSea\UnderTheSea\obj\Debug\View\HistoryResign.baml
+D:\UnderTheSea\UnderTheSea\obj\Debug\View\HumanResourceDepartment.g.cs
+D:\UnderTheSea\UnderTheSea\obj\Debug\View\RestaurantDepartment.g.cs
+D:\UnderTheSea\UnderTheSea\obj\Debug\View\HumanResourceDepartment.baml
+D:\UnderTheSea\UnderTheSea\obj\Debug\View\RestaurantDepartment.baml
+D:\UnderTheSea\UnderTheSea\obj\Debug\UnderTheSea.csprojResolveAssemblyReference.cache
+E:\! DY - Ast\TPA\!2. Desktop\Rev2\UnderTheSea\UnderTheSea\bin\Debug\UnderTheSea.exe.config
+E:\! DY - Ast\TPA\!2. Desktop\Rev2\UnderTheSea\UnderTheSea\bin\Debug\UnderTheSea.exe
+E:\! DY - Ast\TPA\!2. Desktop\Rev2\UnderTheSea\UnderTheSea\bin\Debug\UnderTheSea.pdb
+E:\! DY - Ast\TPA\!2. Desktop\Rev2\UnderTheSea\UnderTheSea\bin\Debug\UnderTheSea.exe.CodeAnalysisLog.xml
+E:\! DY - Ast\TPA\!2. Desktop\Rev2\UnderTheSea\UnderTheSea\bin\Debug\UnderTheSea.exe.lastcodeanalysissucceeded
+E:\! DY - Ast\TPA\!2. Desktop\Rev2\UnderTheSea\UnderTheSea\bin\Debug\DotNetProjects.DataVisualization.Toolkit.dll
+E:\! DY - Ast\TPA\!2. Desktop\Rev2\UnderTheSea\UnderTheSea\bin\Debug\EntityFramework.dll
+E:\! DY - Ast\TPA\!2. Desktop\Rev2\UnderTheSea\UnderTheSea\bin\Debug\EntityFramework.SqlServer.dll
+E:\! DY - Ast\TPA\!2. Desktop\Rev2\UnderTheSea\UnderTheSea\bin\Debug\MessagingToolkit.QRCode.dll
+E:\! DY - Ast\TPA\!2. Desktop\Rev2\UnderTheSea\UnderTheSea\bin\Debug\EntityFramework.xml
+E:\! DY - Ast\TPA\!2. Desktop\Rev2\UnderTheSea\UnderTheSea\bin\Debug\EntityFramework.SqlServer.xml
+E:\! DY - Ast\TPA\!2. Desktop\Rev2\UnderTheSea\UnderTheSea\obj\Debug\UnderTheSea.csprojAssemblyReference.cache
+E:\! DY - Ast\TPA\!2. Desktop\Rev2\UnderTheSea\UnderTheSea\obj\Debug\View\AttractionDepartment.g.cs
+E:\! DY - Ast\TPA\!2. Desktop\Rev2\UnderTheSea\UnderTheSea\obj\Debug\View\ConstructionDepartment.g.cs
+E:\! DY - Ast\TPA\!2. Desktop\Rev2\UnderTheSea\UnderTheSea\obj\Debug\View\HistoryPermit.g.cs
+E:\! DY - Ast\TPA\!2. Desktop\Rev2\UnderTheSea\UnderTheSea\obj\Debug\View\HistoryResign.g.cs
+E:\! DY - Ast\TPA\!2. Desktop\Rev2\UnderTheSea\UnderTheSea\obj\Debug\View\HumanResourceDepartment.g.cs
+E:\! DY - Ast\TPA\!2. Desktop\Rev2\UnderTheSea\UnderTheSea\obj\Debug\View\Login.g.cs
+E:\! DY - Ast\TPA\!2. Desktop\Rev2\UnderTheSea\UnderTheSea\obj\Debug\View\MaintenanceDepartment.g.cs
+E:\! DY - Ast\TPA\!2. Desktop\Rev2\UnderTheSea\UnderTheSea\obj\Debug\View\ManagementDepartment.g.cs
+E:\! DY - Ast\TPA\!2. Desktop\Rev2\UnderTheSea\UnderTheSea\obj\Debug\View\RequestPermit.g.cs
+E:\! DY - Ast\TPA\!2. Desktop\Rev2\UnderTheSea\UnderTheSea\obj\Debug\View\RequestResign.g.cs
+E:\! DY - Ast\TPA\!2. Desktop\Rev2\UnderTheSea\UnderTheSea\obj\Debug\View\RestaurantDepartment.g.cs
+E:\! DY - Ast\TPA\!2. Desktop\Rev2\UnderTheSea\UnderTheSea\obj\Debug\View\RideandAttractionCreativeDepartment.g.cs
+E:\! DY - Ast\TPA\!2. Desktop\Rev2\UnderTheSea\UnderTheSea\obj\Debug\App.g.cs
+E:\! DY - Ast\TPA\!2. Desktop\Rev2\UnderTheSea\UnderTheSea\obj\Debug\UnderTheSea_Content.g.cs
+E:\! DY - Ast\TPA\!2. Desktop\Rev2\UnderTheSea\UnderTheSea\obj\Debug\UnderTheSea_MarkupCompile.cache
+E:\! DY - Ast\TPA\!2. Desktop\Rev2\UnderTheSea\UnderTheSea\obj\Debug\UnderTheSea_MarkupCompile.lref
+E:\! DY - Ast\TPA\!2. Desktop\Rev2\UnderTheSea\UnderTheSea\obj\Debug\View\AttractionDepartment.baml
+E:\! DY - Ast\TPA\!2. Desktop\Rev2\UnderTheSea\UnderTheSea\obj\Debug\View\ConstructionDepartment.baml
+E:\! DY - Ast\TPA\!2. Desktop\Rev2\UnderTheSea\UnderTheSea\obj\Debug\View\HistoryPermit.baml
+E:\! DY - Ast\TPA\!2. Desktop\Rev2\UnderTheSea\UnderTheSea\obj\Debug\View\HistoryResign.baml
+E:\! DY - Ast\TPA\!2. Desktop\Rev2\UnderTheSea\UnderTheSea\obj\Debug\View\HumanResourceDepartment.baml
+E:\! DY - Ast\TPA\!2. Desktop\Rev2\UnderTheSea\UnderTheSea\obj\Debug\View\Login.baml
+E:\! DY - Ast\TPA\!2. Desktop\Rev2\UnderTheSea\UnderTheSea\obj\Debug\View\MaintenanceDepartment.baml
+E:\! DY - Ast\TPA\!2. Desktop\Rev2\UnderTheSea\UnderTheSea\obj\Debug\View\ManagementDepartment.baml
+E:\! DY - Ast\TPA\!2. Desktop\Rev2\UnderTheSea\UnderTheSea\obj\Debug\View\RequestPermit.baml
+E:\! DY - Ast\TPA\!2. Desktop\Rev2\UnderTheSea\UnderTheSea\obj\Debug\View\RequestResign.baml
+E:\! DY - Ast\TPA\!2. Desktop\Rev2\UnderTheSea\UnderTheSea\obj\Debug\View\RestaurantDepartment.baml
+E:\! DY - Ast\TPA\!2. Desktop\Rev2\UnderTheSea\UnderTheSea\obj\Debug\View\RideandAttractionCreativeDepartment.baml
+E:\! DY - Ast\TPA\!2. Desktop\Rev2\UnderTheSea\UnderTheSea\obj\Debug\UnderTheSea.g.resources
+E:\! DY - Ast\TPA\!2. Desktop\Rev2\UnderTheSea\UnderTheSea\obj\Debug\UnderTheSea.Properties.Resources.resources
+E:\! DY - Ast\TPA\!2. Desktop\Rev2\UnderTheSea\UnderTheSea\obj\Debug\UnderTheSea.csproj.GenerateResource.cache
+E:\! DY - Ast\TPA\!2. Desktop\Rev2\UnderTheSea\UnderTheSea\obj\Debug\UnderTheSea.csproj.CoreCompileInputs.cache
+E:\! DY - Ast\TPA\!2. Desktop\Rev2\UnderTheSea\UnderTheSea\obj\Debug\UnderTheSea.csproj.CopyComplete
+E:\! DY - Ast\TPA\!2. Desktop\Rev2\UnderTheSea\UnderTheSea\obj\Debug\UnderTheSea.exe
+E:\! DY - Ast\TPA\!2. Desktop\Rev2\UnderTheSea\UnderTheSea\obj\Debug\UnderTheSea.pdb
+D:\UnderTheSea-20200618T124749Z-001\UnderTheSea\UnderTheSea\bin\Debug\UnderTheSea.exe.config
+D:\UnderTheSea-20200618T124749Z-001\UnderTheSea\UnderTheSea\obj\Debug\UnderTheSea.exe
+D:\UnderTheSea-20200618T124749Z-001\UnderTheSea\UnderTheSea\obj\Debug\UnderTheSea.pdb
+D:\UnderTheSea-20200618T124749Z-001\UnderTheSea\UnderTheSea\bin\Debug\UnderTheSea.exe
+D:\UnderTheSea-20200618T124749Z-001\UnderTheSea\UnderTheSea\bin\Debug\UnderTheSea.pdb
+D:\UnderTheSea-20200618T124749Z-001\UnderTheSea\UnderTheSea\bin\Debug\DotNetProjects.DataVisualization.Toolkit.dll
+D:\UnderTheSea-20200618T124749Z-001\UnderTheSea\UnderTheSea\bin\Debug\EntityFramework.dll
+D:\UnderTheSea-20200618T124749Z-001\UnderTheSea\UnderTheSea\bin\Debug\EntityFramework.SqlServer.dll
+D:\UnderTheSea-20200618T124749Z-001\UnderTheSea\UnderTheSea\bin\Debug\MessagingToolkit.QRCode.dll
+D:\UnderTheSea-20200618T124749Z-001\UnderTheSea\UnderTheSea\bin\Debug\EntityFramework.xml
+D:\UnderTheSea-20200618T124749Z-001\UnderTheSea\UnderTheSea\bin\Debug\EntityFramework.SqlServer.xml
+D:\UnderTheSea-20200618T124749Z-001\UnderTheSea\UnderTheSea\obj\Debug\UnderTheSea.csprojResolveAssemblyReference.cache
+D:\UnderTheSea-20200618T124749Z-001\UnderTheSea\UnderTheSea\obj\Debug\View\AttractionDepartment.g.cs
+D:\UnderTheSea-20200618T124749Z-001\UnderTheSea\UnderTheSea\obj\Debug\View\ConstructionDepartment.g.cs
+D:\UnderTheSea-20200618T124749Z-001\UnderTheSea\UnderTheSea\obj\Debug\View\HistoryPermit.g.cs
+D:\UnderTheSea-20200618T124749Z-001\UnderTheSea\UnderTheSea\obj\Debug\View\HistoryResign.g.cs
+D:\UnderTheSea-20200618T124749Z-001\UnderTheSea\UnderTheSea\obj\Debug\View\HumanResourceDepartment.g.cs
+D:\UnderTheSea-20200618T124749Z-001\UnderTheSea\UnderTheSea\obj\Debug\View\Login.g.cs
+D:\UnderTheSea-20200618T124749Z-001\UnderTheSea\UnderTheSea\obj\Debug\View\MaintenanceDepartment.g.cs
+D:\UnderTheSea-20200618T124749Z-001\UnderTheSea\UnderTheSea\obj\Debug\View\ManagementDepartment.g.cs
+D:\UnderTheSea-20200618T124749Z-001\UnderTheSea\UnderTheSea\obj\Debug\View\RequestPermit.g.cs
+D:\UnderTheSea-20200618T124749Z-001\UnderTheSea\UnderTheSea\obj\Debug\View\RequestResign.g.cs
+D:\UnderTheSea-20200618T124749Z-001\UnderTheSea\UnderTheSea\obj\Debug\View\RestaurantDepartment.g.cs
+D:\UnderTheSea-20200618T124749Z-001\UnderTheSea\UnderTheSea\obj\Debug\View\RideandAttractionCreativeDepartment.g.cs
+D:\UnderTheSea-20200618T124749Z-001\UnderTheSea\UnderTheSea\obj\Debug\App.g.cs
+D:\UnderTheSea-20200618T124749Z-001\UnderTheSea\UnderTheSea\obj\Debug\UnderTheSea_Content.g.cs
+D:\UnderTheSea-20200618T124749Z-001\UnderTheSea\UnderTheSea\obj\Debug\UnderTheSea_MarkupCompile.cache
+D:\UnderTheSea-20200618T124749Z-001\UnderTheSea\UnderTheSea\obj\Debug\UnderTheSea_MarkupCompile.lref
+D:\UnderTheSea-20200618T124749Z-001\UnderTheSea\UnderTheSea\obj\Debug\View\AttractionDepartment.baml
+D:\UnderTheSea-20200618T124749Z-001\UnderTheSea\UnderTheSea\obj\Debug\View\ConstructionDepartment.baml
+D:\UnderTheSea-20200618T124749Z-001\UnderTheSea\UnderTheSea\obj\Debug\View\HistoryPermit.baml
+D:\UnderTheSea-20200618T124749Z-001\UnderTheSea\UnderTheSea\obj\Debug\View\HistoryResign.baml
+D:\UnderTheSea-20200618T124749Z-001\UnderTheSea\UnderTheSea\obj\Debug\View\HumanResourceDepartment.baml
+D:\UnderTheSea-20200618T124749Z-001\UnderTheSea\UnderTheSea\obj\Debug\View\Login.baml
+D:\UnderTheSea-20200618T124749Z-001\UnderTheSea\UnderTheSea\obj\Debug\View\MaintenanceDepartment.baml
+D:\UnderTheSea-20200618T124749Z-001\UnderTheSea\UnderTheSea\obj\Debug\View\ManagementDepartment.baml
+D:\UnderTheSea-20200618T124749Z-001\UnderTheSea\UnderTheSea\obj\Debug\View\RequestPermit.baml
+D:\UnderTheSea-20200618T124749Z-001\UnderTheSea\UnderTheSea\obj\Debug\View\RequestResign.baml
+D:\UnderTheSea-20200618T124749Z-001\UnderTheSea\UnderTheSea\obj\Debug\View\RestaurantDepartment.baml
+D:\UnderTheSea-20200618T124749Z-001\UnderTheSea\UnderTheSea\obj\Debug\View\RideandAttractionCreativeDepartment.baml
+D:\UnderTheSea-20200618T124749Z-001\UnderTheSea\UnderTheSea\obj\Debug\UnderTheSea.g.resources
+D:\UnderTheSea-20200618T124749Z-001\UnderTheSea\UnderTheSea\obj\Debug\UnderTheSea.Properties.Resources.resources
+D:\UnderTheSea-20200618T124749Z-001\UnderTheSea\UnderTheSea\obj\Debug\UnderTheSea.csproj.GenerateResource.Cache
+D:\UnderTheSea\UnderTheSea\UnderTheSea\bin\Debug\UnderTheSea.exe.config
+D:\UnderTheSea\UnderTheSea\UnderTheSea\obj\Debug\UnderTheSea.exe
+D:\UnderTheSea\UnderTheSea\UnderTheSea\obj\Debug\UnderTheSea.pdb
+D:\UnderTheSea\UnderTheSea\UnderTheSea\bin\Debug\UnderTheSea.exe
+D:\UnderTheSea\UnderTheSea\UnderTheSea\bin\Debug\UnderTheSea.pdb
+D:\UnderTheSea\UnderTheSea\UnderTheSea\bin\Debug\DotNetProjects.DataVisualization.Toolkit.dll
+D:\UnderTheSea\UnderTheSea\UnderTheSea\bin\Debug\EntityFramework.dll
+D:\UnderTheSea\UnderTheSea\UnderTheSea\bin\Debug\EntityFramework.SqlServer.dll
+D:\UnderTheSea\UnderTheSea\UnderTheSea\bin\Debug\MessagingToolkit.QRCode.dll
+D:\UnderTheSea\UnderTheSea\UnderTheSea\bin\Debug\EntityFramework.xml
+D:\UnderTheSea\UnderTheSea\UnderTheSea\bin\Debug\EntityFramework.SqlServer.xml
+D:\UnderTheSea\UnderTheSea\UnderTheSea\obj\Debug\View\AttractionDepartment.g.cs
+D:\UnderTheSea\UnderTheSea\UnderTheSea\obj\Debug\View\ConstructionDepartment.g.cs
+D:\UnderTheSea\UnderTheSea\UnderTheSea\obj\Debug\View\HistoryPermit.g.cs
+D:\UnderTheSea\UnderTheSea\UnderTheSea\obj\Debug\View\HistoryResign.g.cs
+D:\UnderTheSea\UnderTheSea\UnderTheSea\obj\Debug\View\HumanResourceDepartment.g.cs
+D:\UnderTheSea\UnderTheSea\UnderTheSea\obj\Debug\View\Login.g.cs
+D:\UnderTheSea\UnderTheSea\UnderTheSea\obj\Debug\View\MaintenanceDepartment.g.cs
+D:\UnderTheSea\UnderTheSea\UnderTheSea\obj\Debug\View\ManagementDepartment.g.cs
+D:\UnderTheSea\UnderTheSea\UnderTheSea\obj\Debug\View\RequestPermit.g.cs
+D:\UnderTheSea\UnderTheSea\UnderTheSea\obj\Debug\View\RequestResign.g.cs
+D:\UnderTheSea\UnderTheSea\UnderTheSea\obj\Debug\View\RestaurantDepartment.g.cs
+D:\UnderTheSea\UnderTheSea\UnderTheSea\obj\Debug\View\RideandAttractionCreativeDepartment.g.cs
+D:\UnderTheSea\UnderTheSea\UnderTheSea\obj\Debug\App.g.cs
+D:\UnderTheSea\UnderTheSea\UnderTheSea\obj\Debug\UnderTheSea_Content.g.cs
+D:\UnderTheSea\UnderTheSea\UnderTheSea\obj\Debug\UnderTheSea_MarkupCompile.cache
+D:\UnderTheSea\UnderTheSea\UnderTheSea\obj\Debug\UnderTheSea_MarkupCompile.lref
+D:\UnderTheSea\UnderTheSea\UnderTheSea\obj\Debug\View\AttractionDepartment.baml
+D:\UnderTheSea\UnderTheSea\UnderTheSea\obj\Debug\View\ConstructionDepartment.baml
+D:\UnderTheSea\UnderTheSea\UnderTheSea\obj\Debug\View\HistoryPermit.baml
+D:\UnderTheSea\UnderTheSea\UnderTheSea\obj\Debug\View\HistoryResign.baml
+D:\UnderTheSea\UnderTheSea\UnderTheSea\obj\Debug\View\HumanResourceDepartment.baml
+D:\UnderTheSea\UnderTheSea\UnderTheSea\obj\Debug\View\Login.baml
+D:\UnderTheSea\UnderTheSea\UnderTheSea\obj\Debug\View\MaintenanceDepartment.baml
+D:\UnderTheSea\UnderTheSea\UnderTheSea\obj\Debug\View\ManagementDepartment.baml
+D:\UnderTheSea\UnderTheSea\UnderTheSea\obj\Debug\View\RequestPermit.baml
+D:\UnderTheSea\UnderTheSea\UnderTheSea\obj\Debug\View\RequestResign.baml
+D:\UnderTheSea\UnderTheSea\UnderTheSea\obj\Debug\View\RestaurantDepartment.baml
+D:\UnderTheSea\UnderTheSea\UnderTheSea\obj\Debug\View\RideandAttractionCreativeDepartment.baml
+D:\UnderTheSea\UnderTheSea\UnderTheSea\obj\Debug\UnderTheSea.g.resources
+D:\UnderTheSea\UnderTheSea\UnderTheSea\obj\Debug\UnderTheSea.Properties.Resources.resources
+D:\UnderTheSea\UnderTheSea\UnderTheSea\obj\Debug\UnderTheSea.csproj.GenerateResource.Cache
+D:\UnderTheSea\UnderTheSea\UnderTheSea\obj\Debug\UnderTheSea.csprojResolveAssemblyReference.cache
+D:\DY20-1_Program_Rev2\UnderTheSea\UnderTheSea\UnderTheSea\bin\Debug\UnderTheSea.exe.config
+D:\DY20-1_Program_Rev2\UnderTheSea\UnderTheSea\UnderTheSea\obj\Debug\UnderTheSea.exe
+D:\DY20-1_Program_Rev2\UnderTheSea\UnderTheSea\UnderTheSea\obj\Debug\UnderTheSea.pdb
+D:\DY20-1_Program_Rev2\UnderTheSea\UnderTheSea\UnderTheSea\bin\Debug\UnderTheSea.exe
+D:\DY20-1_Program_Rev2\UnderTheSea\UnderTheSea\UnderTheSea\bin\Debug\UnderTheSea.pdb
+D:\DY20-1_Program_Rev2\UnderTheSea\UnderTheSea\UnderTheSea\bin\Debug\DotNetProjects.DataVisualization.Toolkit.dll
+D:\DY20-1_Program_Rev2\UnderTheSea\UnderTheSea\UnderTheSea\bin\Debug\EntityFramework.dll
+D:\DY20-1_Program_Rev2\UnderTheSea\UnderTheSea\UnderTheSea\bin\Debug\EntityFramework.SqlServer.dll
+D:\DY20-1_Program_Rev2\UnderTheSea\UnderTheSea\UnderTheSea\bin\Debug\MessagingToolkit.QRCode.dll
+D:\DY20-1_Program_Rev2\UnderTheSea\UnderTheSea\UnderTheSea\bin\Debug\EntityFramework.xml
+D:\DY20-1_Program_Rev2\UnderTheSea\UnderTheSea\UnderTheSea\bin\Debug\EntityFramework.SqlServer.xml
+D:\DY20-1_Program_Rev2\UnderTheSea\UnderTheSea\UnderTheSea\obj\Debug\View\AttractionDepartment.g.cs
+D:\DY20-1_Program_Rev2\UnderTheSea\UnderTheSea\UnderTheSea\obj\Debug\View\ConstructionDepartment.g.cs
+D:\DY20-1_Program_Rev2\UnderTheSea\UnderTheSea\UnderTheSea\obj\Debug\View\HistoryPermit.g.cs
+D:\DY20-1_Program_Rev2\UnderTheSea\UnderTheSea\UnderTheSea\obj\Debug\View\HistoryResign.g.cs
+D:\DY20-1_Program_Rev2\UnderTheSea\UnderTheSea\UnderTheSea\obj\Debug\View\HumanResourceDepartment.g.cs
+D:\DY20-1_Program_Rev2\UnderTheSea\UnderTheSea\UnderTheSea\obj\Debug\View\Login.g.cs
+D:\DY20-1_Program_Rev2\UnderTheSea\UnderTheSea\UnderTheSea\obj\Debug\View\MaintenanceDepartment.g.cs
+D:\DY20-1_Program_Rev2\UnderTheSea\UnderTheSea\UnderTheSea\obj\Debug\View\ManagementDepartment.g.cs
+D:\DY20-1_Program_Rev2\UnderTheSea\UnderTheSea\UnderTheSea\obj\Debug\View\RequestPermit.g.cs
+D:\DY20-1_Program_Rev2\UnderTheSea\UnderTheSea\UnderTheSea\obj\Debug\View\RequestResign.g.cs
+D:\DY20-1_Program_Rev2\UnderTheSea\UnderTheSea\UnderTheSea\obj\Debug\View\RestaurantDepartment.g.cs
+D:\DY20-1_Program_Rev2\UnderTheSea\UnderTheSea\UnderTheSea\obj\Debug\View\RideandAttractionCreativeDepartment.g.cs
+D:\DY20-1_Program_Rev2\UnderTheSea\UnderTheSea\UnderTheSea\obj\Debug\View\SalesAndMarketingDepartment.g.cs
+D:\DY20-1_Program_Rev2\UnderTheSea\UnderTheSea\UnderTheSea\obj\Debug\App.g.cs
+D:\DY20-1_Program_Rev2\UnderTheSea\UnderTheSea\UnderTheSea\obj\Debug\UnderTheSea_Content.g.cs
+D:\DY20-1_Program_Rev2\UnderTheSea\UnderTheSea\UnderTheSea\obj\Debug\UnderTheSea_MarkupCompile.cache
+D:\DY20-1_Program_Rev2\UnderTheSea\UnderTheSea\UnderTheSea\obj\Debug\UnderTheSea_MarkupCompile.lref
+D:\DY20-1_Program_Rev2\UnderTheSea\UnderTheSea\UnderTheSea\obj\Debug\View\AttractionDepartment.baml
+D:\DY20-1_Program_Rev2\UnderTheSea\UnderTheSea\UnderTheSea\obj\Debug\View\ConstructionDepartment.baml
+D:\DY20-1_Program_Rev2\UnderTheSea\UnderTheSea\UnderTheSea\obj\Debug\View\HistoryPermit.baml
+D:\DY20-1_Program_Rev2\UnderTheSea\UnderTheSea\UnderTheSea\obj\Debug\View\HistoryResign.baml
+D:\DY20-1_Program_Rev2\UnderTheSea\UnderTheSea\UnderTheSea\obj\Debug\View\HumanResourceDepartment.baml
+D:\DY20-1_Program_Rev2\UnderTheSea\UnderTheSea\UnderTheSea\obj\Debug\View\Login.baml
+D:\DY20-1_Program_Rev2\UnderTheSea\UnderTheSea\UnderTheSea\obj\Debug\View\MaintenanceDepartment.baml
+D:\DY20-1_Program_Rev2\UnderTheSea\UnderTheSea\UnderTheSea\obj\Debug\View\ManagementDepartment.baml
+D:\DY20-1_Program_Rev2\UnderTheSea\UnderTheSea\UnderTheSea\obj\Debug\View\RequestPermit.baml
+D:\DY20-1_Program_Rev2\UnderTheSea\UnderTheSea\UnderTheSea\obj\Debug\View\RequestResign.baml
+D:\DY20-1_Program_Rev2\UnderTheSea\UnderTheSea\UnderTheSea\obj\Debug\View\RestaurantDepartment.baml
+D:\DY20-1_Program_Rev2\UnderTheSea\UnderTheSea\UnderTheSea\obj\Debug\View\RideandAttractionCreativeDepartment.baml
+D:\DY20-1_Program_Rev2\UnderTheSea\UnderTheSea\UnderTheSea\obj\Debug\View\SalesAndMarketingDepartment.baml
+D:\DY20-1_Program_Rev2\UnderTheSea\UnderTheSea\UnderTheSea\obj\Debug\UnderTheSea.g.resources
+D:\DY20-1_Program_Rev2\UnderTheSea\UnderTheSea\UnderTheSea\obj\Debug\UnderTheSea.Properties.Resources.resources
+D:\DY20-1_Program_Rev2\UnderTheSea\UnderTheSea\UnderTheSea\obj\Debug\UnderTheSea.csproj.GenerateResource.Cache
+D:\DY20-1_Program_Rev2\UnderTheSea\UnderTheSea\UnderTheSea\obj\Debug\View\FundDepartment.g.cs
+D:\DY20-1_Program_Rev2\UnderTheSea\UnderTheSea\UnderTheSea\obj\Debug\View\PurchaseDepartment.g.cs
+D:\DY20-1_Program_Rev2\UnderTheSea\UnderTheSea\UnderTheSea\obj\Debug\View\FundDepartment.baml
+D:\DY20-1_Program_Rev2\UnderTheSea\UnderTheSea\UnderTheSea\obj\Debug\View\PurchaseDepartment.baml
+D:\DY20-1_Program_Rev2\UnderTheSea\UnderTheSea\UnderTheSea\obj\Debug\View\HotelDepartment.g.cs
+D:\DY20-1_Program_Rev2\UnderTheSea\UnderTheSea\UnderTheSea\obj\Debug\View\HotelDepartment.baml
+D:\DY20-1_Program_Rev2\UnderTheSea\UnderTheSea\UnderTheSea\obj\Debug\UnderTheSea.csprojResolveAssemblyReference.cache

@@ -1,0 +1,81 @@
+﻿<Window x:Class="UnderTheSea.View.ConstructionDepartment"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:UnderTheSea.View"
+        mc:Ignorable="d"
+        Title="Under The Sea - Construction Department" Height="700" Width="1200" FontSize="15" Background="SkyBlue" WindowStartupLocation="CenterScreen" ResizeMode="NoResize">
+    <StackPanel>
+        <Button Margin="0,10,10,0" Padding="5" Content="Sign Out" Name="btnSignOut" Click="btnSignOut_Click" HorizontalAlignment="Right" Width="127"/>
+        <Border Margin="10">
+            <TabControl Height="600">
+
+                <!--tab-->
+                <TabItem Header="Data Constructing" x:Name="DataconstructRide">
+                    <StackPanel Margin="10">
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="*"/>
+                                <ColumnDefinition Width="*"/>
+                            </Grid.ColumnDefinitions>
+                            <StackPanel Grid.Column="0" Margin="10">
+                                <Label Content="List Ride Constructing Under The Sea" FontWeight="Bold"/>
+                                <DataGrid x:Name="dataConsRide" Height="315" Loaded="dataConsRide_Loaded"/>
+                            </StackPanel>
+                            <StackPanel Grid.Column="1" Margin="10">
+                                <Label Content="Request Ride ID"/>
+                                <StackPanel Orientation="Horizontal" Margin="10">
+                                    <TextBox x:Name="tbReqRideId" Width="70"/>
+                                    <Button x:Name="btnSearchRide" Content="Search" Click="btnSearchRide_Click" Margin="50,0,0,0" Padding="10,0,10,0"/>
+                                </StackPanel>
+                                <Label Content="Name Ride"/>
+                                <TextBox x:Name="tbNameReRide"/>
+                                <Button x:Name="btnStartCons" Content="Start Construct" Margin="70,10,70,10" Click="btnStartCons_Click"/>
+                                <Button x:Name="btnfinishCons" Content="Finish Construct" Margin="70,10,70,10" Click="btnfinishCons_Click"/>
+                            </StackPanel>
+                        </Grid>
+                    </StackPanel>
+                </TabItem>
+
+                <TabItem Header="Request Ride" x:Name="RequestRide" HorizontalAlignment="Left" Width="102">
+                    <StackPanel Margin="10">
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="*"/>
+                                <ColumnDefinition Width="*"/>
+                            </Grid.ColumnDefinitions>
+                            <StackPanel Grid.Column="0" Margin="10">
+                                <Label Content="List Ride Under The Sea" FontWeight="Bold"/>
+                                <DataGrid x:Name="dataRide" Height="500" Loaded="dataRide_Loaded"/>
+                            </StackPanel>
+                            <StackPanel Grid.Column="1" Margin="10">
+                                <Label Content="Ride ID"/>
+                                <StackPanel Orientation="Horizontal">
+                                    <TextBox x:Name="tbRideId" Width="70"/>
+                                    <Button x:Name="btnLookRide" Content="Search" Click="btnLookRide_Click" Margin="50,0,0,0" Padding="10,0,10,0"/>
+                                </StackPanel>
+
+                                <Label Content="Name Ride"/>
+                                <TextBox x:Name="tbNameRide"/>
+                                <Label Content="Description"/>
+                                <TextBox x:Name="tbDescRide" TextWrapping="Wrap" VerticalScrollBarVisibility="Visible" Height="65"/>
+                                <Label Content="How to work"/>
+                                <TextBox x:Name="tbHowWorkRide" TextWrapping="Wrap" VerticalScrollBarVisibility="Visible" Height="65"/>
+                                <Label Content="Safety Information"/>
+                                <TextBox x:Name="tbSafetyRide" TextWrapping="Wrap" VerticalScrollBarVisibility="Visible" Height="65"/>
+                                <ComboBox x:Name="cbKindRide" Width="200" Height="25" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="0,7,0,7">
+                                    <ComboBoxItem Content="Select Kind Of Ride" IsSelected="True"/>
+                                    <ComboBoxItem Content="Children Ride"/>
+                                    <ComboBoxItem Content="Family Ride"/>
+                                    <ComboBoxItem Content="Water Ride"/>
+                                    <ComboBoxItem Content="Thrill Ride"/>
+                                </ComboBox>
+                            </StackPanel>
+                        </Grid>
+                    </StackPanel>
+                </TabItem>
+            </TabControl>
+        </Border>
+    </StackPanel>
+</Window>

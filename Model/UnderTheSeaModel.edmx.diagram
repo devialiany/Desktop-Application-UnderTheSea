@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="e02893f1c9e84273a56ba593bcc8cf02" Name="Diagram1" >
+        <EntityTypeShape EntityType="UnderTheSeaDBsModel.Advertisement" Width="1.5" PointX="5.25" PointY="17" />
+        <EntityTypeShape EntityType="UnderTheSeaDBsModel.Attraction" Width="1.5" PointX="10.75" PointY="0.75" />
+        <EntityTypeShape EntityType="UnderTheSeaDBsModel.Construction" Width="1.5" PointX="10" PointY="4.125" />
+        <EntityTypeShape EntityType="UnderTheSeaDBsModel.Employee" Width="1.5" PointX="3" PointY="15.375" />
+        <EntityTypeShape EntityType="UnderTheSeaDBsModel.EmployeeDepartment" Width="1.5" PointX="0.75" PointY="17.125" />
+        <EntityTypeShape EntityType="UnderTheSeaDBsModel.HotelTransaction" Width="1.5" PointX="10" PointY="8" />
+        <EntityTypeShape EntityType="UnderTheSeaDBsModel.MaintenanceSchedule" Width="1.5" PointX="13" PointY="3.5" />
+        <EntityTypeShape EntityType="UnderTheSeaDBsModel.Menu" Width="1.5" PointX="0.75" PointY="1.875" />
+        <EntityTypeShape EntityType="UnderTheSeaDBsModel.NumberTable" Width="1.5" PointX="0.75" PointY="4.875" />
+        <EntityTypeShape EntityType="UnderTheSeaDBsModel.PurchaseOrder" Width="1.5" PointX="0.75" PointY="7.875" />
+        <EntityTypeShape EntityType="UnderTheSeaDBsModel.RequestAttraction" Width="1.5" PointX="5.25" PointY="22.875" />
+        <EntityTypeShape EntityType="UnderTheSeaDBsModel.RequestFund" Width="1.5" PointX="5.25" PointY="10.375" />
+        <EntityTypeShape EntityType="UnderTheSeaDBsModel.RequestPermit" Width="1.5" PointX="5.25" PointY="7" />
+        <EntityTypeShape EntityType="UnderTheSeaDBsModel.RequestPurchase" Width="1.5" PointX="5.25" PointY="13.625" />
+        <EntityTypeShape EntityType="UnderTheSeaDBsModel.RequestResign" Width="1.5" PointX="5.25" PointY="26.5" />
+        <EntityTypeShape EntityType="UnderTheSeaDBsModel.RequestRide" Width="1.5" PointX="5.25" PointY="3.375" />
+        <EntityTypeShape EntityType="UnderTheSeaDBsModel.RestaurantTransaction" Width="1.5" PointX="5.25" PointY="29.625" />
+        <EntityTypeShape EntityType="UnderTheSeaDBsModel.Ride" Width="1.5" PointX="7.75" PointY="3.625" />
+        <EntityTypeShape EntityType="UnderTheSeaDBsModel.RoomHotel" Width="1.5" PointX="7.75" PointY="8.5" />
+        <EntityTypeShape EntityType="UnderTheSeaDBsModel.Ticket" Width="1.5" PointX="0.75" PointY="10.875" />
+        <EntityTypeShape EntityType="UnderTheSeaDBsModel.TicketTransaction" Width="1.5" PointX="5.25" PointY="19.875" />
+        <AssociationConnector Association="UnderTheSeaDBsModel.FK__Advertise__Emplo__625A9A57" />
+        <AssociationConnector Association="UnderTheSeaDBsModel.FK__Maintenan__Attra__2A164134" />
+        <AssociationConnector Association="UnderTheSeaDBsModel.FK__Construct__RideI__2FCF1A8A" />
+        <AssociationConnector Association="UnderTheSeaDBsModel.FK__Employee__Employ__403A8C7D" />
+        <AssociationConnector Association="UnderTheSeaDBsModel.FK__RequestAt__Emplo__07C12930" />
+        <AssociationConnector Association="UnderTheSeaDBsModel.FK__RequestFu__Emplo__55009F39" />
+        <AssociationConnector Association="UnderTheSeaDBsModel.FK__RequestPe__Emplo__5FB337D6" />
+        <AssociationConnector Association="UnderTheSeaDBsModel.FK__RequestPu__Emplo__5224328E" />
+        <AssociationConnector Association="UnderTheSeaDBsModel.FK__RequestRe__Emplo__628FA481" />
+        <AssociationConnector Association="UnderTheSeaDBsModel.FK__RequestRi__Emplo__02FC7413" />
+        <AssociationConnector Association="UnderTheSeaDBsModel.FK__Restauran__Emplo__160F4887" />
+        <AssociationConnector Association="UnderTheSeaDBsModel.FK__TicketTra__Emplo__3F466844" />
+        <AssociationConnector Association="UnderTheSeaDBsModel.FK__HotelTran__RoomI__690797E6" />
+        <AssociationConnector Association="UnderTheSeaDBsModel.FK__Maintenan__RideI__29221CFB" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

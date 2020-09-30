@@ -1,0 +1,68 @@
+﻿<Window x:Class="UnderTheSea.View.MaintenanceDepartment"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:UnderTheSea.View"
+        mc:Ignorable="d"
+        Title="Under The Sea - Maintenance Department" Height="500" Width="770" FontSize="14" Background="Gold" WindowStartupLocation="CenterScreen" ResizeMode="NoResize">
+    <StackPanel>
+        <Button Margin="0,10,10,0" Padding="5" Content="Sign Out" Name="btnSignOut" Click="btnSignOut_Click" HorizontalAlignment="Right" Width="127"/>
+        <Border Margin="10">
+            <TabControl Height="396">
+
+                <!--Data Attraction-->
+                <TabItem Header="Data Attraction" x:Name="DataAttractionView">
+                    <Grid Margin="10">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+                        <StackPanel Grid.Column="0">
+                            <DataGrid x:Name="dataAttraction" Loaded="dataAttraction_Loaded" Height="280"/>
+                            <Label Content="Attraction ID"/>
+                            <StackPanel Orientation="Horizontal">
+                                <TextBox x:Name="tbAttId" Width="70"/>
+                                <Button x:Name="btnSearchAtt" Content="Search" Click="btnSearchAtt_Click" Margin="50,0,0,0" Padding="10,0,10,0"/>
+                            </StackPanel>
+                        </StackPanel>
+                        <StackPanel Grid.Column="1" Background="BlanchedAlmond">
+                            <Label Content="Name Attraction"/>
+                            <Label Content="name" x:Name="lbNameAtt"/>
+                            <Label Content="Date Maintenance"/>
+                            <DatePicker x:Name="dateMtn"/>
+                            <Label Content="Start Time"/>
+                            <TextBox x:Name="tbStartTime"/>
+                            <Label Content="End Time"/>
+                            <TextBox x:Name="tbEndTime"/>
+                            <Label Content="Note"/>
+                            <TextBox TextWrapping="Wrap" VerticalScrollBarVisibility="Visible" Height="65" x:Name="tbNote"/>
+                            <Button Content="Create Schedule" Margin="5" x:Name="btnCreateScheduleAttMtn" Click="btnCreateScheduleAttMtn_Click"/>
+                        </StackPanel>
+                    </Grid>
+                </TabItem>
+
+                <!--Data Ride-->
+                <TabItem Header="Data Ride" x:Name="DataRideView">
+                    <Canvas>
+
+                    </Canvas>
+                </TabItem>
+                
+                <!--Schedule Maintenance-->
+                <TabItem Header="ScheduleMaintenance" x:Name="ScheduleMaintenance">
+                    <StackPanel>
+                        <DataGrid x:Name="DataScheduleMtn" Loaded="DataScheduleMtn_Loaded"/>
+                        <Label Content="Schedule Attraction ID"/>
+                        <StackPanel Orientation="Horizontal">
+                            <TextBox x:Name="tbScAttId" Width="70"/>
+                            <Button x:Name="btnSearchScAtt" Content="Search" Click="btnSearchAtt_Click" Margin="50,0,0,0" Padding="10,0,10,0"/>
+                        </StackPanel>
+                        <Button x:Name="btnStartMaitenance" Click="btnStartMaitenance_Click" Content="start Maintenance"/>
+                        <Button x:Name="btnEndMaintenance" Click="btnEndMaintenance_Click" Content="end Maintenance"/>
+                    </StackPanel>
+                </TabItem>
+            </TabControl>
+        </Border>
+    </StackPanel>
+</Window>

@@ -1,0 +1,29 @@
+﻿<Page x:Class="UnderTheSea.View.RequestPermit"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:UnderTheSea.View"
+      mc:Ignorable="d" 
+      d:DesignHeight="300" d:DesignWidth="300"
+      Title="RequestPermit" Background="Honeydew" FontSize="15">
+
+    <StackPanel Margin="5">
+        <Label Content="Request Permit" FontWeight="Bold"/>
+        <Label Content="From Date *(required)"/>
+        <DatePicker x:Name="from"/>
+        <Label Content="To Date *(required)"/>
+        <DatePicker x:Name="to"/>
+        <ComboBox x:Name="cbCategoryPermit" Width="200" Height="25" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="0,7,0,7">
+            <ComboBoxItem Content="select category" IsSelected="True"/>
+            <ComboBoxItem Content="Personal"/>
+            <ComboBoxItem Content="Sick"/>
+            <ComboBoxItem Content="Family Event"/>
+            <ComboBoxItem Content="Other"/>
+        </ComboBox>
+        <Label Content="Reason *(required)"/>
+        <TextBox x:Name="reasonDesc" TextWrapping="Wrap" VerticalScrollBarVisibility="Visible" Height="76"/>
+        <Button 
+           x:Name="sendPermitToManager" Content="Send Request" Margin="10" Click="sendPermitToManager_Click"/>
+    </StackPanel>
+</Page>

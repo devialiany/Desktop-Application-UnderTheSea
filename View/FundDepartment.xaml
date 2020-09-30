@@ -1,0 +1,30 @@
+﻿<Window x:Class="UnderTheSea.View.FundDepartment"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:UnderTheSea.View"
+        mc:Ignorable="d"
+        Title="Acconting and Financial Accounting - Under The Sea" Height="700" Width="1200" FontSize="15" Background="Chocolate" WindowStartupLocation="CenterScreen" ResizeMode="NoResize">
+    <StackPanel>
+        <Button Margin="0,10,10,0" Padding="5" Content="Sign Out" x:Name="btnSignOut" Click="btnSignOut_Click" HorizontalAlignment="Right" Width="127"/>
+        <Border Margin="10">
+            <TabControl Height="595">
+                <TabItem Header="Manage Advertisement" x:Name="ManageAdvertisement">
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+                        <StackPanel Grid.Column="0">
+                            <DataGrid x:Name="dataRequestFund" Height="500" Loaded="dataRequestFund_Loaded"/>
+                        </StackPanel>
+                        <StackPanel Grid.Column="1">
+
+                        </StackPanel>
+                    </Grid>
+                </TabItem>
+            </TabControl>
+        </Border>
+    </StackPanel>
+</Window>

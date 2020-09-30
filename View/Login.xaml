@@ -1,0 +1,26 @@
+﻿<Window x:Class="UnderTheSea.Login"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:UnderTheSea"
+        mc:Ignorable="d"
+        Title="Under The Sea - Authentication" Height="270" Width="300" FontSize="14" Background="Beige" WindowStartupLocation="CenterScreen">
+    <StackPanel Margin="20">
+        <Label Content="LOGIN" FontSize="16" HorizontalAlignment="Center" FontWeight="Bold"/>
+        <Separator></Separator>
+        <Label Content="Username"/>
+        <TextBox Name="tbUsername"/>
+        <Label Content="Password"/>
+        <PasswordBox Name="tbPassword" />
+        <Grid Margin="0 5 0 0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Button Grid.Column="0" Click="btnLogin_Click" Margin="10" Name="btnLogin" Content="Login"/>
+            <Button Grid.Column="1" 
+                   Click="btnExit_Click" Margin="10" Name="btnExit" Content="Exit"/>
+        </Grid>
+    </StackPanel>
+</Window>

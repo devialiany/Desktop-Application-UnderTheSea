@@ -1,0 +1,148 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:DVC="clr-namespace:System.Windows.Controls.DataVisualization.Charting;assembly=DotNetProjects.DataVisualization.Toolkit"
+        xmlns:local="clr-namespace:UnderTheSea.View"
+         x:Class="UnderTheSea.View.ManagementDepartment"
+        mc:Ignorable="d"
+        Title="Management Department - Under The Sea" Height="700" Width="1200" FontSize="15" Background="Maroon" WindowStartupLocation="CenterScreen" ResizeMode="NoResize">
+    <StackPanel>
+        <Button Margin="0,10,10,0" Padding="5" Content="Sign Out" x:Name="btnSignOut" Click="btnSignOut_Click" HorizontalAlignment="Right" Width="127"/>
+        <Border Margin="10">
+
+            <TabControl Height="595">
+
+                <!--Data Ticket Transaction-->
+                <TabItem Header="Data Record Ticket Transaction" x:Name="DataTicketTransaction">
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+                        <StackPanel Grid.Column="0">
+                            <DataGrid x:Name="dataTicketTransactionView" Height="282" Loaded="dataTicketTransactionView_Loaded"/>
+                            <Label Content="Tickets Sold Today  :" Canvas.Left="6" Canvas.Top="297"/>
+                            <Label Content="0" x:Name="lbTcSoldToday" Canvas.Left="158" Canvas.Top="297"/>
+                            <Label Content="Total Tickets sold    : " Canvas.Left="7" Canvas.Top="322"/>
+                            <Label Content="0" x:Name="lbTcSoldAll" Canvas.Left="158" Canvas.Top="322"/>
+                        </StackPanel>
+                        <StackPanel Grid.Column="1">
+                            <DVC:Chart Width="550" Height="550" Background="Azure" Title="Profit Ticket per Day">
+                                <DVC:BarSeries x:Name="LineChartTicket"  HorizontalAlignment="Center" DependentValuePath="Value" IndependentValuePath="Key" IsSelectionEnabled="True"/>
+                            </DVC:Chart>
+                        </StackPanel>
+                    </Grid>
+                </TabItem>
+
+                <!--Data Record Restaurant Transaction-->
+                <TabItem Header="Data Record Restaurant Transaction" x:Name="DataRestaurantTransaction">
+                    <DataGrid x:Name="dataRestaurantTransactionView" Height="282" Loaded="dataRestaurantTransactionView_Loaded"/>
+                </TabItem>
+
+                <!--Data Record Hotel Transaction-->
+                <TabItem Header="Data Record Hotel Transaction" x:Name="DataHotelTransaction">
+                    <DataGrid x:Name="dataHotelTransactionView" Height="282" Loaded="dataHotelTransactionView_Loaded"/>
+                </TabItem>
+                
+                <!--View Data Request Ride-->
+                <TabItem Header="Data Request Ride" x:Name="DataRequestRide">
+                    <StackPanel Margin="10">
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="*"/>
+                                <ColumnDefinition Width="*"/>
+                            </Grid.ColumnDefinitions>
+                            <StackPanel Grid.Column="0" Margin="10">
+                                <Label Content="List Request Ride Under The Sea" FontWeight="Bold"/>
+                                <DataGrid x:Name="dataRequestRide" Height="500" Loaded="dataRequestRide_Loaded"/>
+                            </StackPanel>
+                            <StackPanel Grid.Column="1" Margin="10">
+                                <Label Content="Request Ride ID"/>
+                                <StackPanel Orientation="Horizontal" Margin="10">
+                                    <TextBox x:Name="tbReqRideId" Width="70"/>
+                                    <Button x:Name="btnSearchRide" Content="Search" Click="btnSearchRide_Click" Margin="50,0,0,0" Padding="10,0,10,0"/>
+                                </StackPanel>
+                                <Label Content="Name Ride" Margin="10"/>
+                                <Label x:Name="lbNameRide" Height="34" Margin="10"/>
+                                <Label Content="Description Ride" Margin="10"/>
+                                <Label x:Name="lbDescRide" Margin="20" Height="60"/>
+                                <Label Content="Give a Respon:" Margin="10"/>
+                                <Button Content="Accept" Margin="50,10,50,10" x:Name="btnAccRide" Click="btnAccRide_Click"/>
+                                <Button Content="Decline" Margin="50,10,50,10" x:Name="btnNoAccRide" Click="btnNoAccRide_Click"/>
+                            </StackPanel>
+                        </Grid>
+                    </StackPanel>
+                </TabItem>
+                 <!--Data Reqquest Attraction-->
+                <TabItem Header="Data Request Attraction" x:Name="DataRequestAtt">
+                    <StackPanel Margin="10">
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="*"/>
+                                <ColumnDefinition Width="*"/>
+                            </Grid.ColumnDefinitions>
+                            <StackPanel Grid.Column="0" Margin="10">
+                                <Label Content="List Request Attraction Under The Sea" FontWeight="Bold"/>
+                                <DataGrid x:Name="dataRequestAtt" Height="500" Loaded="dataRequestAtt_Loaded"
+                                          />
+                            </StackPanel>
+                            <StackPanel Grid.Column="1" Margin="10">
+                                <Label Content="Request attraction ID"/>
+                                <StackPanel Orientation="Horizontal" Margin="10">
+                                    <TextBox x:Name="tbReqAttId" Width="70"/>
+                                    <Button x:Name="btnSearchAtt" Content="Search" Click="btnSearchAtt_Click" Margin="50,0,0,0" Padding="10,0,10,0"/>
+                                </StackPanel>
+                                <Label Content="Name Address" Margin="10"/>
+                                <Label x:Name="lbNameAtt" Height="34" Margin="10"/>
+                                <Label Content="Description Ride" Margin="10"/>
+                                <Label x:Name="lbDescAtt" Margin="20" Height="60"/>
+                                <Label Content="Give a Respon:" Margin="10"/>
+                                <Button Content="Accept" Margin="50,10,50,10" x:Name="btnAccAtt" Click="btnAccAtt_Click"/>
+                                <Button Content="Decline" Margin="50,10,50,10" x:Name="btnNoAccAtt" Click="btnNoAccAtt_Click"/>
+                            </StackPanel>
+                        </Grid>
+                    </StackPanel>
+                </TabItem>
+                
+                <TabItem Header="Data Request Resign" x:Name="DataRequestResign">
+                    <StackPanel Margin="10">
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="*"/>
+                                <ColumnDefinition Width="*"/>
+                            </Grid.ColumnDefinitions>
+                            <StackPanel Grid.Column="0" Margin="10">
+                                <Label Content="List Request Resign Under The Sea" FontWeight="Bold"/>
+                                <DataGrid x:Name="dataRequestResign" Height="500" Loaded="dataRequestResign_Loaded"/>
+                            </StackPanel>
+                            <StackPanel Grid.Column="1" Margin="10">
+                                <Label Content="Request Resign ID"/>
+                                <StackPanel Orientation="Horizontal" Margin="10">
+                                    <TextBox x:Name="tbReqResignId" Width="70"/>
+                                    <Button x:Name="btnSeacrhIdResign" Content="Search" Click="btnSeacrhIdResign_Click" Margin="50,0,0,0" Padding="10,0,10,0"/>
+                                </StackPanel>
+                                <Label Content="Reason"/>
+                                <TextBox x:Name="tbReason" Height="35"/>
+
+                                <Label Content="Give a Respon:" Margin="10"/>
+                                <Button Content="Accept" Margin="50,10,50,10" x:Name="btnAccResign" Click="btnAccResign_Click"/>
+                                <Button Content="Decline" Margin="50,10,50,10" x:Name="btnNoAccResign" Click="btnNoAccResign_Click"/>
+                            </StackPanel>
+                        </Grid>
+                    </StackPanel>
+                </TabItem>
+
+                <!--tab emp Performance-->
+                <TabItem Header="Work Performance" x:Name="workPerformance">
+                    <Canvas>
+                        <DataGrid x:Name="dataWorkPerformance" Height="247" Width="738" Loaded="dataWorkPerformance_Loaded"/>
+                    </Canvas>
+                </TabItem>
+
+            </TabControl>
+
+        </Border>
+    </StackPanel>
+</Window>

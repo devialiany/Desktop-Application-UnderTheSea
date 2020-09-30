@@ -1,0 +1,256 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="UnderTheSeaDBsModelStoreContainer" CdmEntityContainer="UnderTheSeaDBsEntities">
+    <EntitySetMapping Name="Advertisement">
+      <EntityTypeMapping TypeName="UnderTheSeaDBsModel.Advertisement">
+        <MappingFragment StoreEntitySet="Advertisement">
+          <ScalarProperty Name="AdvertisementStatus" ColumnName="AdvertisementStatus" />
+          <ScalarProperty Name="AdvertisementDetail" ColumnName="AdvertisementDetail" />
+          <ScalarProperty Name="AdvertisementName" ColumnName="AdvertisementName" />
+          <ScalarProperty Name="EmployeeId" ColumnName="EmployeeId" />
+          <ScalarProperty Name="AdvertisementId" ColumnName="AdvertisementId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Attraction">
+      <EntityTypeMapping TypeName="UnderTheSeaDBsModel.Attraction">
+        <MappingFragment StoreEntitySet="Attraction">
+          <ScalarProperty Name="AttractionStatus" ColumnName="AttractionStatus" />
+          <ScalarProperty Name="AttractionStartDateLaunch" ColumnName="AttractionStartDateLaunch" />
+          <ScalarProperty Name="AttractionWhoParticipant" ColumnName="AttractionWhoParticipant" />
+          <ScalarProperty Name="AttractionHowToWork" ColumnName="AttractionHowToWork" />
+          <ScalarProperty Name="AttractionDescription" ColumnName="AttractionDescription" />
+          <ScalarProperty Name="AttractionName" ColumnName="AttractionName" />
+          <ScalarProperty Name="AttractionId" ColumnName="AttractionId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Construction">
+      <EntityTypeMapping TypeName="UnderTheSeaDBsModel.Construction">
+        <MappingFragment StoreEntitySet="Construction">
+          <ScalarProperty Name="ConstructionStatus" ColumnName="ConstructionStatus" />
+          <ScalarProperty Name="RideId" ColumnName="RideId" />
+          <ScalarProperty Name="ConstructionId" ColumnName="ConstructionId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Employee">
+      <EntityTypeMapping TypeName="UnderTheSeaDBsModel.Employee">
+        <MappingFragment StoreEntitySet="Employee">
+          <ScalarProperty Name="EnployeeStatus" ColumnName="EnployeeStatus" />
+          <ScalarProperty Name="EmployeeDepartmentId" ColumnName="EmployeeDepartmentId" />
+          <ScalarProperty Name="EmployeeRole" ColumnName="EmployeeRole" />
+          <ScalarProperty Name="EmployeePassword" ColumnName="EmployeePassword" />
+          <ScalarProperty Name="EmployeeUsername" ColumnName="EmployeeUsername" />
+          <ScalarProperty Name="EmployeePerformance" ColumnName="EmployeePerformance" />
+          <ScalarProperty Name="EmployeeSalary" ColumnName="EmployeeSalary" />
+          <ScalarProperty Name="EmployeeGender" ColumnName="EmployeeGender" />
+          <ScalarProperty Name="EmployeeDOB" ColumnName="EmployeeDOB" />
+          <ScalarProperty Name="EmployeeName" ColumnName="EmployeeName" />
+          <ScalarProperty Name="EmployeeId" ColumnName="EmployeeId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EmployeeDepartment">
+      <EntityTypeMapping TypeName="UnderTheSeaDBsModel.EmployeeDepartment">
+        <MappingFragment StoreEntitySet="EmployeeDepartment">
+          <ScalarProperty Name="EmployeeDepartmentName" ColumnName="EmployeeDepartmentName" />
+          <ScalarProperty Name="EmployeeDepartmentId" ColumnName="EmployeeDepartmentId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="HotelTransaction">
+      <EntityTypeMapping TypeName="UnderTheSeaDBsModel.HotelTransaction">
+        <MappingFragment StoreEntitySet="HotelTransaction">
+          <ScalarProperty Name="Payment" ColumnName="Payment" />
+          <ScalarProperty Name="VisitorId" ColumnName="VisitorId" />
+          <ScalarProperty Name="RoomId" ColumnName="RoomId" />
+          <ScalarProperty Name="EndDate" ColumnName="EndDate" />
+          <ScalarProperty Name="FromDate" ColumnName="FromDate" />
+          <ScalarProperty Name="HotelTransactionDate" ColumnName="HotelTransactionDate" />
+          <ScalarProperty Name="EmployeeId" ColumnName="EmployeeId" />
+          <ScalarProperty Name="HotelTransactionId" ColumnName="HotelTransactionId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="MaintenanceSchedule">
+      <EntityTypeMapping TypeName="UnderTheSeaDBsModel.MaintenanceSchedule">
+        <MappingFragment StoreEntitySet="MaintenanceSchedule">
+          <ScalarProperty Name="MaintenanceEndTime" ColumnName="MaintenanceEndTime" />
+          <ScalarProperty Name="MaintenaceStartTime" ColumnName="MaintenaceStartTime" />
+          <ScalarProperty Name="MaintenanceDate" ColumnName="MaintenanceDate" />
+          <ScalarProperty Name="MaintenanceNote" ColumnName="MaintenanceNote" />
+          <ScalarProperty Name="AttractionName" ColumnName="AttractionName" />
+          <ScalarProperty Name="RideName" ColumnName="RideName" />
+          <ScalarProperty Name="AttractionId" ColumnName="AttractionId" />
+          <ScalarProperty Name="RideId" ColumnName="RideId" />
+          <ScalarProperty Name="MaintenanceScheduleId" ColumnName="MaintenanceScheduleId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Menu">
+      <EntityTypeMapping TypeName="UnderTheSeaDBsModel.Menu">
+        <MappingFragment StoreEntitySet="Menu">
+          <ScalarProperty Name="MenuStatus" ColumnName="MenuStatus" />
+          <ScalarProperty Name="MenuPrice" ColumnName="MenuPrice" />
+          <ScalarProperty Name="MenuName" ColumnName="MenuName" />
+          <ScalarProperty Name="MenuId" ColumnName="MenuId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="NumberTable">
+      <EntityTypeMapping TypeName="UnderTheSeaDBsModel.NumberTable">
+        <MappingFragment StoreEntitySet="NumberTable">
+          <ScalarProperty Name="StatusTable" ColumnName="StatusTable" />
+          <ScalarProperty Name="NumberTableId" ColumnName="NumberTableId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PurchaseOrder">
+      <EntityTypeMapping TypeName="UnderTheSeaDBsModel.PurchaseOrder">
+        <MappingFragment StoreEntitySet="PurchaseOrder">
+          <ScalarProperty Name="PurchaseOrderStatus" ColumnName="PurchaseOrderStatus" />
+          <ScalarProperty Name="AmountPurchase" ColumnName="AmountPurchase" />
+          <ScalarProperty Name="PurchaseOrderDate" ColumnName="PurchaseOrderDate" />
+          <ScalarProperty Name="WhoBuy" ColumnName="WhoBuy" />
+          <ScalarProperty Name="PurchaseOrderId" ColumnName="PurchaseOrderId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="RequestAttraction">
+      <EntityTypeMapping TypeName="UnderTheSeaDBsModel.RequestAttraction">
+        <MappingFragment StoreEntitySet="RequestAttraction">
+          <ScalarProperty Name="AttractionId" ColumnName="AttractionId" />
+          <ScalarProperty Name="EmployeeId" ColumnName="EmployeeId" />
+          <ScalarProperty Name="ReqAttStatus" ColumnName="ReqAttStatus" />
+          <ScalarProperty Name="ReqAttStartDateLaunch" ColumnName="ReqAttStartDateLaunch" />
+          <ScalarProperty Name="ReqAttWhoParticipant" ColumnName="ReqAttWhoParticipant" />
+          <ScalarProperty Name="ReqAttHowToWork" ColumnName="ReqAttHowToWork" />
+          <ScalarProperty Name="ReqAttDescription" ColumnName="ReqAttDescription" />
+          <ScalarProperty Name="ReqAttName" ColumnName="ReqAttName" />
+          <ScalarProperty Name="ReqAttId" ColumnName="ReqAttId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="RequestFund">
+      <EntityTypeMapping TypeName="UnderTheSeaDBsModel.RequestFund">
+        <MappingFragment StoreEntitySet="RequestFund">
+          <ScalarProperty Name="RequestReason" ColumnName="RequestReason" />
+          <ScalarProperty Name="RequestFundDate" ColumnName="RequestFundDate" />
+          <ScalarProperty Name="PredictedAmount" ColumnName="PredictedAmount" />
+          <ScalarProperty Name="RequestFundStatus" ColumnName="RequestFundStatus" />
+          <ScalarProperty Name="RequestFundDetail" ColumnName="RequestFundDetail" />
+          <ScalarProperty Name="EmployeeId" ColumnName="EmployeeId" />
+          <ScalarProperty Name="RequestFundId" ColumnName="RequestFundId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="RequestPermit">
+      <EntityTypeMapping TypeName="UnderTheSeaDBsModel.RequestPermit">
+        <MappingFragment StoreEntitySet="RequestPermit">
+          <ScalarProperty Name="PermitStatus" ColumnName="PermitStatus" />
+          <ScalarProperty Name="ReasonPermit" ColumnName="ReasonPermit" />
+          <ScalarProperty Name="Category" ColumnName="Category" />
+          <ScalarProperty Name="ToDate" ColumnName="ToDate" />
+          <ScalarProperty Name="FromDate" ColumnName="FromDate" />
+          <ScalarProperty Name="EmployeeId" ColumnName="EmployeeId" />
+          <ScalarProperty Name="RequestPermitId" ColumnName="RequestPermitId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="RequestPurchase">
+      <EntityTypeMapping TypeName="UnderTheSeaDBsModel.RequestPurchase">
+        <MappingFragment StoreEntitySet="RequestPurchase">
+          <ScalarProperty Name="PurchaseTimeNeed" ColumnName="PurchaseTimeNeed" />
+          <ScalarProperty Name="RequestPurchaseDate" ColumnName="RequestPurchaseDate" />
+          <ScalarProperty Name="RequestDateNeed" ColumnName="RequestDateNeed" />
+          <ScalarProperty Name="RequestPurchaseStatus" ColumnName="RequestPurchaseStatus" />
+          <ScalarProperty Name="RequestPurchaseDetail" ColumnName="RequestPurchaseDetail" />
+          <ScalarProperty Name="EmployeeId" ColumnName="EmployeeId" />
+          <ScalarProperty Name="RequestPurchaseId" ColumnName="RequestPurchaseId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="RequestResign">
+      <EntityTypeMapping TypeName="UnderTheSeaDBsModel.RequestResign">
+        <MappingFragment StoreEntitySet="RequestResign">
+          <ScalarProperty Name="ReasonManager" ColumnName="ReasonManager" />
+          <ScalarProperty Name="ResignStatus" ColumnName="ResignStatus" />
+          <ScalarProperty Name="ResignReason" ColumnName="ResignReason" />
+          <ScalarProperty Name="AssignDate" ColumnName="AssignDate" />
+          <ScalarProperty Name="EmployeeId" ColumnName="EmployeeId" />
+          <ScalarProperty Name="RequestResignId" ColumnName="RequestResignId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="RequestRide">
+      <EntityTypeMapping TypeName="UnderTheSeaDBsModel.RequestRide">
+        <MappingFragment StoreEntitySet="RequestRide">
+          <ScalarProperty Name="RideId" ColumnName="RideId" />
+          <ScalarProperty Name="EmployeeId" ColumnName="EmployeeId" />
+          <ScalarProperty Name="ReqRideStatus" ColumnName="ReqRideStatus" />
+          <ScalarProperty Name="ReqRideSafetyInformation" ColumnName="ReqRideSafetyInformation" />
+          <ScalarProperty Name="ReqRideKind" ColumnName="ReqRideKind" />
+          <ScalarProperty Name="ReqRideHowToWork" ColumnName="ReqRideHowToWork" />
+          <ScalarProperty Name="ReqRideDescription" ColumnName="ReqRideDescription" />
+          <ScalarProperty Name="ReqRideName" ColumnName="ReqRideName" />
+          <ScalarProperty Name="ReqRideId" ColumnName="ReqRideId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="RestaurantTransaction">
+      <EntityTypeMapping TypeName="UnderTheSeaDBsModel.RestaurantTransaction">
+        <MappingFragment StoreEntitySet="RestaurantTransaction">
+          <ScalarProperty Name="Payment" ColumnName="Payment" />
+          <ScalarProperty Name="RestaurantTransactionStatus" ColumnName="RestaurantTransactionStatus" />
+          <ScalarProperty Name="NameVisitor" ColumnName="NameVisitor" />
+          <ScalarProperty Name="NumberTable" ColumnName="NumberTable" />
+          <ScalarProperty Name="OrderMethod" ColumnName="OrderMethod" />
+          <ScalarProperty Name="TransactionDate" ColumnName="TransactionDate" />
+          <ScalarProperty Name="EmployeeId" ColumnName="EmployeeId" />
+          <ScalarProperty Name="ResturantTransaction" ColumnName="ResturantTransaction" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Ride">
+      <EntityTypeMapping TypeName="UnderTheSeaDBsModel.Ride">
+        <MappingFragment StoreEntitySet="Ride">
+          <ScalarProperty Name="RideStatus" ColumnName="RideStatus" />
+          <ScalarProperty Name="RideSafetyInformation" ColumnName="RideSafetyInformation" />
+          <ScalarProperty Name="RideKind" ColumnName="RideKind" />
+          <ScalarProperty Name="RideHowToWork" ColumnName="RideHowToWork" />
+          <ScalarProperty Name="RideDescription" ColumnName="RideDescription" />
+          <ScalarProperty Name="RideName" ColumnName="RideName" />
+          <ScalarProperty Name="RideId" ColumnName="RideId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="RoomHotel">
+      <EntityTypeMapping TypeName="UnderTheSeaDBsModel.RoomHotel">
+        <MappingFragment StoreEntitySet="RoomHotel">
+          <ScalarProperty Name="RoomStatus" ColumnName="RoomStatus" />
+          <ScalarProperty Name="RoomType" ColumnName="RoomType" />
+          <ScalarProperty Name="RoomId" ColumnName="RoomId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Ticket">
+      <EntityTypeMapping TypeName="UnderTheSeaDBsModel.Ticket">
+        <MappingFragment StoreEntitySet="Ticket">
+          <ScalarProperty Name="TicketId" ColumnName="TicketId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TicketTransaction">
+      <EntityTypeMapping TypeName="UnderTheSeaDBsModel.TicketTransaction">
+        <MappingFragment StoreEntitySet="TicketTransaction">
+          <ScalarProperty Name="TicketTransactionStatus" ColumnName="TicketTransactionStatus" />
+          <ScalarProperty Name="TicketQuantity" ColumnName="TicketQuantity" />
+          <ScalarProperty Name="TicketTransactionDate" ColumnName="TicketTransactionDate" />
+          <ScalarProperty Name="EmployeeId" ColumnName="EmployeeId" />
+          <ScalarProperty Name="TicketTransactionId" ColumnName="TicketTransactionId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
